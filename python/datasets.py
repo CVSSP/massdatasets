@@ -26,7 +26,7 @@ class Dataset(yaml.YAMLObject):
             filename = self.dataset
         else:
             filename, ext = os.path.splitext(filename)
-        with open(filename + '.yml', 'w') as f:
+        with open(filename + '.yaml', 'w') as f:
             yaml.dump(self, f, default_flow_style=False)
 
     def dump(self):
@@ -43,7 +43,7 @@ class Dataset(yaml.YAMLObject):
 
     def to_pandas_df(self):
         '''
-        Compiles the yml document to a pandas DataFrame.
+        Compiles the yaml document to a pandas DataFrame.
         filepaths are complete (prefixed by base_path).
         '''
 
