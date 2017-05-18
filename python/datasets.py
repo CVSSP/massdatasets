@@ -32,19 +32,19 @@ class Dataset(yaml.YAMLObject):
     def dump(self):
         return yaml.dump(self, default_flow_style=False)
 
-    def add_song(self, artist, title, style, filepaths, **kwargs):
+    def add_song(self, artist, title, style, audio_filepath, **kwargs):
         self.songs.append(
             {'artist': artist,
              'title': title,
              'style': style,
-             'filepaths': filepaths,
+             'audio_filepath': audio_filepath,
              **kwargs}
         )
 
     def to_pandas_df(self):
         '''
         Compiles the yaml document to a pandas DataFrame.
-        filepaths are complete (prefixed by base_path).
+        audio_filepath are complete (prefixed by base_path).
         '''
 
         frame = pd.DataFrame(columns=self.songs[0].keys())
@@ -54,8 +54,8 @@ class Dataset(yaml.YAMLObject):
             sub_frame['audio'] = sub_frame.index
             frame = frame.append(sub_frame, ignore_index=True)
 
-        frame['filepaths'] = ['/'.join((self.base_path, _))
-                              for _ in frame['filepaths']]
+        frame['audio_filepath'] = ['/'.join((self.base_path, _))
+                                   for _ in frame['audio_filepath']]
         frame['dataset'] = self.dataset
         return frame
 
