@@ -15,6 +15,12 @@ class Dataset(yaml.YAMLObject):
         self.base_path = base_path
         self.songs = []
 
+    @classmethod
+    def read(cls, filename=None):
+        with open(filename, 'r') as f:
+            instance = yaml.load(f)
+        return instance
+
     def write(self, filename=None):
         if filename is None:
             filename = self.dataset
@@ -23,15 +29,35 @@ class Dataset(yaml.YAMLObject):
         with open(filename + '.yml', 'w') as f:
             yaml.dump(self, f, default_flow_style=False)
 
-    def add_song(self, artist, title, style, mixture, stems, **kwargs):
+    def dump(self):
+        return yaml.dump(self, default_flow_style=False)
+
+    def add_song(self, artist, title, style, filepaths, **kwargs):
         self.songs.append(
             {'artist': artist,
              'title': title,
              'style': style,
-             'mixture': mixture,
-             'stems': stems,
+             'filepaths': filepaths,
              **kwargs}
         )
+
+    def to_pandas_df(self):
+        '''
+        Compiles the yml document to a pandas DataFrame.
+        filepaths are complete (prefixed by base_path).
+        '''
+
+        frame = pd.DataFrame(columns=self.songs[0].keys())
+
+        for song in self.songs:
+            sub_frame = pd.DataFrame.from_dict(song)
+            sub_frame['audio'] = sub_frame.index
+            frame = frame.append(sub_frame, ignore_index=True)
+
+        frame['filepaths'] = ['/'.join((self.base_path, _))
+                              for _ in frame['filepaths']]
+        frame['dataset'] = self.dataset
+        return frame
 
 
 class DSD100(Dataset):
@@ -66,17 +92,17 @@ class DSD100(Dataset):
             artist, title = row[1]['Name'].split(' - ')
             style = row[1]['Style']
             idx = [i for i, _ in enumerate(mix_paths) if title in _][0]
-            mixture = mix_paths[idx] + '/mixture.wav'
 
-            stems = {}
+            audio = {}
+            audio['mixture'] = mix_paths[idx] + '/mixture.wav'
+
             for key in ['bass', 'drums', 'vocal', 'other']:
-                stems[key] = '{0}/{1}.wav'.format(source_paths[idx], key)
+                audio[key] = '{0}/{1}.wav'.format(source_paths[idx], key)
 
             self.add_song(artist,
                           title,
                           style,
-                          mixture,
-                          stems,
+                          audio,
                           test_set=test_set[idx])
 
 
