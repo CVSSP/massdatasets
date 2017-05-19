@@ -96,7 +96,7 @@ class DSD100(Dataset):
             audio = {}
             audio['mixture'] = mix_paths[idx] + '/mixture.wav'
 
-            for key in ['bass', 'drums', 'vocal', 'other']:
+            for key in ['bass', 'drums', 'vocals', 'other']:
                 audio[key] = '{0}/{1}.wav'.format(source_paths[idx], key)
 
             self.add_song(artist,

@@ -8,7 +8,7 @@ songs:
     drums: Sources/Dev/Actions - Devil's Words/drums.wav
     mixture: Mixtures/Dev/Actions - Devil's Words/mixture.wav
     other: Sources/Dev/Actions - Devil's Words/other.wav
-    vocal: Sources/Dev/Actions - Devil's Words/vocal.wav
+    vocals: Sources/Dev/Actions - Devil's Words/vocals.wav
   style: Power Pop
   test_set: 0
   title: Devil's Words
@@ -18,7 +18,7 @@ songs:
     drums: Sources/Test/Actions - One Minute Smile/drums.wav
     mixture: Mixtures/Test/Actions - One Minute Smile/mixture.wav
     other: Sources/Test/Actions - One Minute Smile/other.wav
-    vocal: Sources/Test/Actions - One Minute Smile/vocal.wav
+    vocals: Sources/Test/Actions - One Minute Smile/vocals.wav
   style: Power Pop
   test_set: 1
   title: One Minute Smile
@@ -28,7 +28,7 @@ songs:
     drums: Sources/Dev/Actions - South Of The Water/drums.wav
     mixture: Mixtures/Dev/Actions - South Of The Water/mixture.wav
     other: Sources/Dev/Actions - South Of The Water/other.wav
-    vocal: Sources/Dev/Actions - South Of The Water/vocal.wav
+    vocals: Sources/Dev/Actions - South Of The Water/vocals.wav
   style: Power Pop
   test_set: 0
   title: South Of The Water
@@ -38,7 +38,7 @@ songs:
     drums: Sources/Test/Al James - Schoolboy Facination/drums.wav
     mixture: Mixtures/Test/Al James - Schoolboy Facination/mixture.wav
     other: Sources/Test/Al James - Schoolboy Facination/other.wav
-    vocal: Sources/Test/Al James - Schoolboy Facination/vocal.wav
+    vocals: Sources/Test/Al James - Schoolboy Facination/vocals.wav
   style: Bubblegum Pop
   test_set: 1
   title: Schoolboy Facination
@@ -48,7 +48,7 @@ songs:
     drums: Sources/Dev/AM Contra - Heart Peripheral/drums.wav
     mixture: Mixtures/Dev/AM Contra - Heart Peripheral/mixture.wav
     other: Sources/Dev/AM Contra - Heart Peripheral/other.wav
-    vocal: Sources/Dev/AM Contra - Heart Peripheral/vocal.wav
+    vocals: Sources/Dev/AM Contra - Heart Peripheral/vocals.wav
   style: Electronic Dance Pop
   test_set: 0
   title: Heart Peripheral
@@ -58,7 +58,7 @@ songs:
     drums: Sources/Test/Angela Thomas Wade - Milk Cow Blues/drums.wav
     mixture: Mixtures/Test/Angela Thomas Wade - Milk Cow Blues/mixture.wav
     other: Sources/Test/Angela Thomas Wade - Milk Cow Blues/other.wav
-    vocal: Sources/Test/Angela Thomas Wade - Milk Cow Blues/vocal.wav
+    vocals: Sources/Test/Angela Thomas Wade - Milk Cow Blues/vocals.wav
   style: Country
   test_set: 1
   title: Milk Cow Blues
@@ -68,7 +68,7 @@ songs:
     drums: Sources/Dev/Angels In Amplifiers - I'm Alright/drums.wav
     mixture: Mixtures/Dev/Angels In Amplifiers - I'm Alright/mixture.wav
     other: Sources/Dev/Angels In Amplifiers - I'm Alright/other.wav
-    vocal: Sources/Dev/Angels In Amplifiers - I'm Alright/vocal.wav
+    vocals: Sources/Dev/Angels In Amplifiers - I'm Alright/vocals.wav
   style: Smooth Acoustic Rock
   test_set: 0
   title: I'm Alright
@@ -78,7 +78,7 @@ songs:
     drums: Sources/Test/ANiMAL - Clinic A/drums.wav
     mixture: Mixtures/Test/ANiMAL - Clinic A/mixture.wav
     other: Sources/Test/ANiMAL - Clinic A/other.wav
-    vocal: Sources/Test/ANiMAL - Clinic A/vocal.wav
+    vocals: Sources/Test/ANiMAL - Clinic A/vocals.wav
   style: UK Hip-Hop
   test_set: 1
   title: Clinic A
@@ -88,7 +88,7 @@ songs:
     drums: Sources/Dev/ANiMAL - Easy Tiger/drums.wav
     mixture: Mixtures/Dev/ANiMAL - Easy Tiger/mixture.wav
     other: Sources/Dev/ANiMAL - Easy Tiger/other.wav
-    vocal: Sources/Dev/ANiMAL - Easy Tiger/vocal.wav
+    vocals: Sources/Dev/ANiMAL - Easy Tiger/vocals.wav
   style: UK Hip-Hop
   test_set: 0
   title: Easy Tiger
@@ -98,7 +98,7 @@ songs:
     drums: Sources/Test/ANiMAL - Rockshow/drums.wav
     mixture: Mixtures/Test/ANiMAL - Rockshow/mixture.wav
     other: Sources/Test/ANiMAL - Rockshow/other.wav
-    vocal: Sources/Test/ANiMAL - Rockshow/vocal.wav
+    vocals: Sources/Test/ANiMAL - Rockshow/vocals.wav
   style: UK Hip-Hop
   test_set: 1
   title: Rockshow
@@ -108,7 +108,7 @@ songs:
     drums: Sources/Dev/Arise - Run Run Run/drums.wav
     mixture: Mixtures/Dev/Arise - Run Run Run/mixture.wav
     other: Sources/Dev/Arise - Run Run Run/other.wav
-    vocal: Sources/Dev/Arise - Run Run Run/vocal.wav
+    vocals: Sources/Dev/Arise - Run Run Run/vocals.wav
   style: Roots Reggae
   test_set: 0
   title: Run Run Run
@@ -118,7 +118,7 @@ songs:
     drums: Sources/Test/Atlantis Bound - It Was My Fault For Waiting/drums.wav
     mixture: Mixtures/Test/Atlantis Bound - It Was My Fault For Waiting/mixture.wav
     other: Sources/Test/Atlantis Bound - It Was My Fault For Waiting/other.wav
-    vocal: Sources/Test/Atlantis Bound - It Was My Fault For Waiting/vocal.wav
+    vocals: Sources/Test/Atlantis Bound - It Was My Fault For Waiting/vocals.wav
   style: Widescreen Pop/Rock
   test_set: 1
   title: It Was My Fault For Waiting
@@ -128,7 +128,7 @@ songs:
     drums: Sources/Dev/Ben Carrigan - We'll Talk About It All Tonight/drums.wav
     mixture: Mixtures/Dev/Ben Carrigan - We'll Talk About It All Tonight/mixture.wav
     other: Sources/Dev/Ben Carrigan - We'll Talk About It All Tonight/other.wav
-    vocal: Sources/Dev/Ben Carrigan - We'll Talk About It All Tonight/vocal.wav
+    vocals: Sources/Dev/Ben Carrigan - We'll Talk About It All Tonight/vocals.wav
   style: Orchestral Indie Pop
   test_set: 0
   title: We'll Talk About It All Tonight
@@ -138,7 +138,7 @@ songs:
     drums: Sources/Test/Bill Chudziak - Children Of No-one/drums.wav
     mixture: Mixtures/Test/Bill Chudziak - Children Of No-one/mixture.wav
     other: Sources/Test/Bill Chudziak - Children Of No-one/other.wav
-    vocal: Sources/Test/Bill Chudziak - Children Of No-one/vocal.wav
+    vocals: Sources/Test/Bill Chudziak - Children Of No-one/vocals.wav
   style: Classic Psychedelic Rock
   test_set: 1
   title: Children Of No-one
@@ -148,7 +148,7 @@ songs:
     drums: Sources/Dev/BKS - Bulldozer/drums.wav
     mixture: Mixtures/Dev/BKS - Bulldozer/mixture.wav
     other: Sources/Dev/BKS - Bulldozer/other.wav
-    vocal: Sources/Dev/BKS - Bulldozer/vocal.wav
+    vocals: Sources/Dev/BKS - Bulldozer/vocals.wav
   style: Rock
   test_set: 0
   title: Bulldozer
@@ -158,7 +158,7 @@ songs:
     drums: Sources/Test/BKS - Too Much/drums.wav
     mixture: Mixtures/Test/BKS - Too Much/mixture.wav
     other: Sources/Test/BKS - Too Much/other.wav
-    vocal: Sources/Test/BKS - Too Much/vocal.wav
+    vocals: Sources/Test/BKS - Too Much/vocals.wav
   style: Rock
   test_set: 1
   title: Too Much
@@ -168,7 +168,7 @@ songs:
     drums: Sources/Dev/Black Bloc - If You Want Success/drums.wav
     mixture: Mixtures/Dev/Black Bloc - If You Want Success/mixture.wav
     other: Sources/Dev/Black Bloc - If You Want Success/other.wav
-    vocal: Sources/Dev/Black Bloc - If You Want Success/vocal.wav
+    vocals: Sources/Dev/Black Bloc - If You Want Success/vocals.wav
   style: Political Funk/Rock
   test_set: 0
   title: If You Want Success
@@ -178,7 +178,7 @@ songs:
     drums: Sources/Test/Bobby Nobody - Stitch Up/drums.wav
     mixture: Mixtures/Test/Bobby Nobody - Stitch Up/mixture.wav
     other: Sources/Test/Bobby Nobody - Stitch Up/other.wav
-    vocal: Sources/Test/Bobby Nobody - Stitch Up/vocal.wav
+    vocals: Sources/Test/Bobby Nobody - Stitch Up/vocals.wav
   style: Indie Pop/Rock
   test_set: 1
   title: Stitch Up
@@ -188,7 +188,7 @@ songs:
     drums: Sources/Dev/Buitraker - Revo X/drums.wav
     mixture: Mixtures/Dev/Buitraker - Revo X/mixture.wav
     other: Sources/Dev/Buitraker - Revo X/other.wav
-    vocal: Sources/Dev/Buitraker - Revo X/vocal.wav
+    vocals: Sources/Dev/Buitraker - Revo X/vocals.wav
   style: Basque Indie Rock
   test_set: 0
   title: Revo X
@@ -198,7 +198,7 @@ songs:
     drums: Sources/Test/Carlos Gonzalez - A Place For Us/drums.wav
     mixture: Mixtures/Test/Carlos Gonzalez - A Place For Us/mixture.wav
     other: Sources/Test/Carlos Gonzalez - A Place For Us/other.wav
-    vocal: Sources/Test/Carlos Gonzalez - A Place For Us/vocal.wav
+    vocals: Sources/Test/Carlos Gonzalez - A Place For Us/vocals.wav
   style: Indie Pop/Rock
   test_set: 1
   title: A Place For Us
@@ -208,7 +208,7 @@ songs:
     drums: Sources/Dev/Chris Durban - Celebrate/drums.wav
     mixture: Mixtures/Dev/Chris Durban - Celebrate/mixture.wav
     other: Sources/Dev/Chris Durban - Celebrate/other.wav
-    vocal: Sources/Dev/Chris Durban - Celebrate/vocal.wav
+    vocals: Sources/Dev/Chris Durban - Celebrate/vocals.wav
   style: Dark Break-based Dance
   test_set: 0
   title: Celebrate
@@ -218,7 +218,7 @@ songs:
     drums: Sources/Test/Cnoc An Tursa - Bannockburn/drums.wav
     mixture: Mixtures/Test/Cnoc An Tursa - Bannockburn/mixture.wav
     other: Sources/Test/Cnoc An Tursa - Bannockburn/other.wav
-    vocal: Sources/Test/Cnoc An Tursa - Bannockburn/vocal.wav
+    vocals: Sources/Test/Cnoc An Tursa - Bannockburn/vocals.wav
   style: Death Metal
   test_set: 1
   title: Bannockburn
@@ -228,7 +228,7 @@ songs:
     drums: Sources/Dev/Cristina Vane - So Easy/drums.wav
     mixture: Mixtures/Dev/Cristina Vane - So Easy/mixture.wav
     other: Sources/Dev/Cristina Vane - So Easy/other.wav
-    vocal: Sources/Dev/Cristina Vane - So Easy/vocal.wav
+    vocals: Sources/Dev/Cristina Vane - So Easy/vocals.wav
   style: Acoustic Singer-Songwriter
   test_set: 0
   title: So Easy
@@ -238,7 +238,7 @@ songs:
     drums: Sources/Test/Dark Ride - Burning Bridges/drums.wav
     mixture: Mixtures/Test/Dark Ride - Burning Bridges/mixture.wav
     other: Sources/Test/Dark Ride - Burning Bridges/other.wav
-    vocal: Sources/Test/Dark Ride - Burning Bridges/vocal.wav
+    vocals: Sources/Test/Dark Ride - Burning Bridges/vocals.wav
   style: Heavy Metal
   test_set: 1
   title: Burning Bridges
@@ -248,7 +248,7 @@ songs:
     drums: Sources/Dev/Detsky Sad - Walkie Talkie/drums.wav
     mixture: Mixtures/Dev/Detsky Sad - Walkie Talkie/mixture.wav
     other: Sources/Dev/Detsky Sad - Walkie Talkie/other.wav
-    vocal: Sources/Dev/Detsky Sad - Walkie Talkie/vocal.wav
+    vocals: Sources/Dev/Detsky Sad - Walkie Talkie/vocals.wav
   style: Ukrainian Indie Rock
   test_set: 0
   title: Walkie Talkie
@@ -258,7 +258,7 @@ songs:
     drums: Sources/Test/Drumtracks - Ghost Bitch/drums.wav
     mixture: Mixtures/Test/Drumtracks - Ghost Bitch/mixture.wav
     other: Sources/Test/Drumtracks - Ghost Bitch/other.wav
-    vocal: Sources/Test/Drumtracks - Ghost Bitch/vocal.wav
+    vocals: Sources/Test/Drumtracks - Ghost Bitch/vocals.wav
   style: Leftfield Pop/Electronica
   test_set: 1
   title: Ghost Bitch
@@ -268,7 +268,7 @@ songs:
     drums: Sources/Dev/Enda Reilly - Cur An Long Ag Seol/drums.wav
     mixture: Mixtures/Dev/Enda Reilly - Cur An Long Ag Seol/mixture.wav
     other: Sources/Dev/Enda Reilly - Cur An Long Ag Seol/other.wav
-    vocal: Sources/Dev/Enda Reilly - Cur An Long Ag Seol/vocal.wav
+    vocals: Sources/Dev/Enda Reilly - Cur An Long Ag Seol/vocals.wav
   style: Irish-Language Singer-Songwriter
   test_set: 0
   title: Cur An Long Ag Seol
@@ -278,7 +278,7 @@ songs:
     drums: Sources/Test/Fergessen - Back From The Start/drums.wav
     mixture: Mixtures/Test/Fergessen - Back From The Start/mixture.wav
     other: Sources/Test/Fergessen - Back From The Start/other.wav
-    vocal: Sources/Test/Fergessen - Back From The Start/vocal.wav
+    vocals: Sources/Test/Fergessen - Back From The Start/vocals.wav
   style: Melodic Indie Rock
   test_set: 1
   title: Back From The Start
@@ -288,7 +288,7 @@ songs:
     drums: Sources/Dev/Fergessen - Nos Palpitants/drums.wav
     mixture: Mixtures/Dev/Fergessen - Nos Palpitants/mixture.wav
     other: Sources/Dev/Fergessen - Nos Palpitants/other.wav
-    vocal: Sources/Dev/Fergessen - Nos Palpitants/vocal.wav
+    vocals: Sources/Dev/Fergessen - Nos Palpitants/vocals.wav
   style: Melodic Indie Rock
   test_set: 0
   title: Nos Palpitants
@@ -298,7 +298,7 @@ songs:
     drums: Sources/Test/Fergessen - The Wind/drums.wav
     mixture: Mixtures/Test/Fergessen - The Wind/mixture.wav
     other: Sources/Test/Fergessen - The Wind/other.wav
-    vocal: Sources/Test/Fergessen - The Wind/vocal.wav
+    vocals: Sources/Test/Fergessen - The Wind/vocals.wav
   style: Melodic Indie Rock
   test_set: 1
   title: The Wind
@@ -308,7 +308,7 @@ songs:
     drums: Sources/Dev/Flags - 54/drums.wav
     mixture: Mixtures/Dev/Flags - 54/mixture.wav
     other: Sources/Dev/Flags - 54/other.wav
-    vocal: Sources/Dev/Flags - 54/vocal.wav
+    vocals: Sources/Dev/Flags - 54/vocals.wav
   style: Buckley-esque Indie Rock
   test_set: 0
   title: '54'
@@ -318,7 +318,7 @@ songs:
     drums: Sources/Test/Forkupines - Semantics/drums.wav
     mixture: Mixtures/Test/Forkupines - Semantics/mixture.wav
     other: Sources/Test/Forkupines - Semantics/other.wav
-    vocal: Sources/Test/Forkupines - Semantics/vocal.wav
+    vocals: Sources/Test/Forkupines - Semantics/vocals.wav
   style: Alternative Punk-Rock
   test_set: 1
   title: Semantics
@@ -328,7 +328,7 @@ songs:
     drums: Sources/Dev/Georgia Wonder - Siren/drums.wav
     mixture: Mixtures/Dev/Georgia Wonder - Siren/mixture.wav
     other: Sources/Dev/Georgia Wonder - Siren/other.wav
-    vocal: Sources/Dev/Georgia Wonder - Siren/vocal.wav
+    vocals: Sources/Dev/Georgia Wonder - Siren/vocals.wav
   style: 'Pop Disco/Rock '
   test_set: 0
   title: Siren
@@ -338,7 +338,7 @@ songs:
     drums: Sources/Test/Girls Under Glass - We Feel Alright/drums.wav
     mixture: Mixtures/Test/Girls Under Glass - We Feel Alright/mixture.wav
     other: Sources/Test/Girls Under Glass - We Feel Alright/other.wav
-    vocal: Sources/Test/Girls Under Glass - We Feel Alright/vocal.wav
+    vocals: Sources/Test/Girls Under Glass - We Feel Alright/vocals.wav
   style: Gothic Electro
   test_set: 1
   title: We Feel Alright
@@ -348,7 +348,7 @@ songs:
     drums: Sources/Dev/Giselle - Moss/drums.wav
     mixture: Mixtures/Dev/Giselle - Moss/mixture.wav
     other: Sources/Dev/Giselle - Moss/other.wav
-    vocal: Sources/Dev/Giselle - Moss/vocal.wav
+    vocals: Sources/Dev/Giselle - Moss/vocals.wav
   style: Electronica/Classical Crossover
   test_set: 0
   title: Moss
@@ -358,7 +358,7 @@ songs:
     drums: Sources/Test/Hollow Ground - Ill Fate/drums.wav
     mixture: Mixtures/Test/Hollow Ground - Ill Fate/mixture.wav
     other: Sources/Test/Hollow Ground - Ill Fate/other.wav
-    vocal: Sources/Test/Hollow Ground - Ill Fate/vocal.wav
+    vocals: Sources/Test/Hollow Ground - Ill Fate/vocals.wav
   style: Death Metal
   test_set: 1
   title: Ill Fate
@@ -368,7 +368,7 @@ songs:
     drums: Sources/Dev/Hollow Ground - Left Blind/drums.wav
     mixture: Mixtures/Dev/Hollow Ground - Left Blind/mixture.wav
     other: Sources/Dev/Hollow Ground - Left Blind/other.wav
-    vocal: Sources/Dev/Hollow Ground - Left Blind/vocal.wav
+    vocals: Sources/Dev/Hollow Ground - Left Blind/vocals.wav
   style: Death Metal
   test_set: 0
   title: Left Blind
@@ -378,7 +378,7 @@ songs:
     drums: Sources/Test/James Elder & Mark M Thompson - The English Actor/drums.wav
     mixture: Mixtures/Test/James Elder & Mark M Thompson - The English Actor/mixture.wav
     other: Sources/Test/James Elder & Mark M Thompson - The English Actor/other.wav
-    vocal: Sources/Test/James Elder & Mark M Thompson - The English Actor/vocal.wav
+    vocals: Sources/Test/James Elder & Mark M Thompson - The English Actor/vocals.wav
   style: Indie Pop
   test_set: 1
   title: The English Actor
@@ -388,7 +388,7 @@ songs:
     drums: Sources/Dev/James May - All Souls Moon/drums.wav
     mixture: Mixtures/Dev/James May - All Souls Moon/mixture.wav
     other: Sources/Dev/James May - All Souls Moon/other.wav
-    vocal: Sources/Dev/James May - All Souls Moon/vocal.wav
+    vocals: Sources/Dev/James May - All Souls Moon/vocals.wav
   style: Acoustic Singer-Songwriter
   test_set: 0
   title: All Souls Moon
@@ -398,7 +398,7 @@ songs:
     drums: Sources/Test/James May - Dont Let Go/drums.wav
     mixture: Mixtures/Test/James May - Dont Let Go/mixture.wav
     other: Sources/Test/James May - Dont Let Go/other.wav
-    vocal: Sources/Test/James May - Dont Let Go/vocal.wav
+    vocals: Sources/Test/James May - Dont Let Go/vocals.wav
   style: Acoustic Singer-Songwriter
   test_set: 1
   title: Dont Let Go
@@ -408,7 +408,7 @@ songs:
     drums: Sources/Dev/James May - If You Say/drums.wav
     mixture: Mixtures/Dev/James May - If You Say/mixture.wav
     other: Sources/Dev/James May - If You Say/other.wav
-    vocal: Sources/Dev/James May - If You Say/vocal.wav
+    vocals: Sources/Dev/James May - If You Say/vocals.wav
   style: Acoustic Singer-Songwriter
   test_set: 0
   title: If You Say
@@ -418,7 +418,7 @@ songs:
     drums: Sources/Test/James May - On The Line/drums.wav
     mixture: Mixtures/Test/James May - On The Line/mixture.wav
     other: Sources/Test/James May - On The Line/other.wav
-    vocal: Sources/Test/James May - On The Line/vocal.wav
+    vocals: Sources/Test/James May - On The Line/vocals.wav
   style: Acoustic Singer-Songwriter
   test_set: 1
   title: On The Line
@@ -428,7 +428,7 @@ songs:
     drums: Sources/Dev/Jay Menon - Through My Eyes/drums.wav
     mixture: Mixtures/Dev/Jay Menon - Through My Eyes/mixture.wav
     other: Sources/Dev/Jay Menon - Through My Eyes/other.wav
-    vocal: Sources/Dev/Jay Menon - Through My Eyes/vocal.wav
+    vocals: Sources/Dev/Jay Menon - Through My Eyes/vocals.wav
   style: Intimate Pop Ballad
   test_set: 0
   title: Through My Eyes
@@ -438,7 +438,7 @@ songs:
     drums: Sources/Test/Johnny Lokke - Promises & Lies/drums.wav
     mixture: Mixtures/Test/Johnny Lokke - Promises & Lies/mixture.wav
     other: Sources/Test/Johnny Lokke - Promises & Lies/other.wav
-    vocal: Sources/Test/Johnny Lokke - Promises & Lies/vocal.wav
+    vocals: Sources/Test/Johnny Lokke - Promises & Lies/vocals.wav
   style: Classic Heavy Rock
   test_set: 1
   title: Promises & Lies
@@ -448,7 +448,7 @@ songs:
     drums: Sources/Dev/Johnny Lokke - Whisper To A Scream/drums.wav
     mixture: Mixtures/Dev/Johnny Lokke - Whisper To A Scream/mixture.wav
     other: Sources/Dev/Johnny Lokke - Whisper To A Scream/other.wav
-    vocal: Sources/Dev/Johnny Lokke - Whisper To A Scream/vocal.wav
+    vocals: Sources/Dev/Johnny Lokke - Whisper To A Scream/vocals.wav
   style: Classic Heavy Rock
   test_set: 0
   title: Whisper To A Scream
@@ -458,7 +458,7 @@ songs:
     drums: Sources/Test/Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
     mixture: Mixtures/Test/Jokers, Jacks & Kings - Sea Of Leaves/mixture.wav
     other: Sources/Test/Jokers, Jacks & Kings - Sea Of Leaves/other.wav
-    vocal: Sources/Test/Jokers, Jacks & Kings - Sea Of Leaves/vocal.wav
+    vocals: Sources/Test/Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   style: Uptempo Indie Rock
   test_set: 1
   title: Sea Of Leaves
@@ -468,7 +468,7 @@ songs:
     drums: Sources/Dev/Juliet's Rescue - Heartbeats/drums.wav
     mixture: Mixtures/Dev/Juliet's Rescue - Heartbeats/mixture.wav
     other: Sources/Dev/Juliet's Rescue - Heartbeats/other.wav
-    vocal: Sources/Dev/Juliet's Rescue - Heartbeats/vocal.wav
+    vocals: Sources/Dev/Juliet's Rescue - Heartbeats/vocals.wav
   style: Club Rock
   test_set: 0
   title: Heartbeats
@@ -478,7 +478,7 @@ songs:
     drums: Sources/Test/Leaf - Come Around/drums.wav
     mixture: Mixtures/Test/Leaf - Come Around/mixture.wav
     other: Sources/Test/Leaf - Come Around/other.wav
-    vocal: Sources/Test/Leaf - Come Around/vocal.wav
+    vocals: Sources/Test/Leaf - Come Around/vocals.wav
   style: Atmospheric Indie Pop
   test_set: 1
   title: Come Around
@@ -488,7 +488,7 @@ songs:
     drums: Sources/Dev/Leaf - Summerghost/drums.wav
     mixture: Mixtures/Dev/Leaf - Summerghost/mixture.wav
     other: Sources/Dev/Leaf - Summerghost/other.wav
-    vocal: Sources/Dev/Leaf - Summerghost/vocal.wav
+    vocals: Sources/Dev/Leaf - Summerghost/vocals.wav
   style: Atmospheric Indie Pop
   test_set: 0
   title: Summerghost
@@ -498,7 +498,7 @@ songs:
     drums: Sources/Test/Leaf - Wicked/drums.wav
     mixture: Mixtures/Test/Leaf - Wicked/mixture.wav
     other: Sources/Test/Leaf - Wicked/other.wav
-    vocal: Sources/Test/Leaf - Wicked/vocal.wav
+    vocals: Sources/Test/Leaf - Wicked/vocals.wav
   style: Atmospheric Indie Pop
   test_set: 1
   title: Wicked
@@ -508,7 +508,7 @@ songs:
     drums: Sources/Dev/Little Chicago's Finest - My Own/drums.wav
     mixture: Mixtures/Dev/Little Chicago's Finest - My Own/mixture.wav
     other: Sources/Dev/Little Chicago's Finest - My Own/other.wav
-    vocal: Sources/Dev/Little Chicago's Finest - My Own/vocal.wav
+    vocals: Sources/Dev/Little Chicago's Finest - My Own/vocals.wav
   style: Hip-Hop
   test_set: 0
   title: My Own
@@ -518,7 +518,7 @@ songs:
     drums: Sources/Test/Louis Cressy Band - Good Time/drums.wav
     mixture: Mixtures/Test/Louis Cressy Band - Good Time/mixture.wav
     other: Sources/Test/Louis Cressy Band - Good Time/other.wav
-    vocal: Sources/Test/Louis Cressy Band - Good Time/vocal.wav
+    vocals: Sources/Test/Louis Cressy Band - Good Time/vocals.wav
   style: Funk Rock
   test_set: 1
   title: Good Time
@@ -528,7 +528,7 @@ songs:
     drums: Sources/Dev/Lyndsey Ollard - Catching Up/drums.wav
     mixture: Mixtures/Dev/Lyndsey Ollard - Catching Up/mixture.wav
     other: Sources/Dev/Lyndsey Ollard - Catching Up/other.wav
-    vocal: Sources/Dev/Lyndsey Ollard - Catching Up/vocal.wav
+    vocals: Sources/Dev/Lyndsey Ollard - Catching Up/vocals.wav
   style: MOR Singer-Songwriter
   test_set: 0
   title: Catching Up
@@ -538,7 +538,7 @@ songs:
     drums: Sources/Test/M.E.R.C. Music - Knockout/drums.wav
     mixture: Mixtures/Test/M.E.R.C. Music - Knockout/mixture.wav
     other: Sources/Test/M.E.R.C. Music - Knockout/other.wav
-    vocal: Sources/Test/M.E.R.C. Music - Knockout/vocal.wav
+    vocals: Sources/Test/M.E.R.C. Music - Knockout/vocals.wav
   style: Mainstream Hip-Hop
   test_set: 1
   title: Knockout
@@ -548,7 +548,7 @@ songs:
     drums: Sources/Dev/Moosmusic - Big Dummy Shake/drums.wav
     mixture: Mixtures/Dev/Moosmusic - Big Dummy Shake/mixture.wav
     other: Sources/Dev/Moosmusic - Big Dummy Shake/other.wav
-    vocal: Sources/Dev/Moosmusic - Big Dummy Shake/vocal.wav
+    vocals: Sources/Dev/Moosmusic - Big Dummy Shake/vocals.wav
   style: Indie Pop/Rock
   test_set: 0
   title: Big Dummy Shake
@@ -558,7 +558,7 @@ songs:
     drums: Sources/Test/Motor Tapes - Shore/drums.wav
     mixture: Mixtures/Test/Motor Tapes - Shore/mixture.wav
     other: Sources/Test/Motor Tapes - Shore/other.wav
-    vocal: Sources/Test/Motor Tapes - Shore/vocal.wav
+    vocals: Sources/Test/Motor Tapes - Shore/vocals.wav
   style: Indie Rock
   test_set: 1
   title: Shore
@@ -568,7 +568,7 @@ songs:
     drums: Sources/Dev/Mu - Too Bright/drums.wav
     mixture: Mixtures/Dev/Mu - Too Bright/mixture.wav
     other: Sources/Dev/Mu - Too Bright/other.wav
-    vocal: Sources/Dev/Mu - Too Bright/vocal.wav
+    vocals: Sources/Dev/Mu - Too Bright/vocals.wav
   style: Alternative Electro Rock
   test_set: 0
   title: Too Bright
@@ -578,7 +578,7 @@ songs:
     drums: Sources/Test/Nerve 9 - Pray For The Rain/drums.wav
     mixture: Mixtures/Test/Nerve 9 - Pray For The Rain/mixture.wav
     other: Sources/Test/Nerve 9 - Pray For The Rain/other.wav
-    vocal: Sources/Test/Nerve 9 - Pray For The Rain/vocal.wav
+    vocals: Sources/Test/Nerve 9 - Pray For The Rain/vocals.wav
   style: Alternative Rock Ballad
   test_set: 1
   title: Pray For The Rain
@@ -588,7 +588,7 @@ songs:
     drums: Sources/Dev/North To Alaska - All The Same/drums.wav
     mixture: Mixtures/Dev/North To Alaska - All The Same/mixture.wav
     other: Sources/Dev/North To Alaska - All The Same/other.wav
-    vocal: Sources/Dev/North To Alaska - All The Same/vocal.wav
+    vocals: Sources/Dev/North To Alaska - All The Same/vocals.wav
   style: Emo Rock
   test_set: 0
   title: All The Same
@@ -598,7 +598,7 @@ songs:
     drums: Sources/Test/Patrick Talbot - A Reason To Leave/drums.wav
     mixture: Mixtures/Test/Patrick Talbot - A Reason To Leave/mixture.wav
     other: Sources/Test/Patrick Talbot - A Reason To Leave/other.wav
-    vocal: Sources/Test/Patrick Talbot - A Reason To Leave/vocal.wav
+    vocals: Sources/Test/Patrick Talbot - A Reason To Leave/vocals.wav
   style: Jazz/Singer-Songwriter
   test_set: 1
   title: A Reason To Leave
@@ -608,7 +608,7 @@ songs:
     drums: Sources/Dev/Patrick Talbot - Set Me Free/drums.wav
     mixture: Mixtures/Dev/Patrick Talbot - Set Me Free/mixture.wav
     other: Sources/Dev/Patrick Talbot - Set Me Free/other.wav
-    vocal: Sources/Dev/Patrick Talbot - Set Me Free/vocal.wav
+    vocals: Sources/Dev/Patrick Talbot - Set Me Free/vocals.wav
   style: Jazz/Singer-Songwriter
   test_set: 0
   title: Set Me Free
@@ -618,7 +618,7 @@ songs:
     drums: Sources/Test/Phre The Eon - Everybody's Falling Apart/drums.wav
     mixture: Mixtures/Test/Phre The Eon - Everybody's Falling Apart/mixture.wav
     other: Sources/Test/Phre The Eon - Everybody's Falling Apart/other.wav
-    vocal: Sources/Test/Phre The Eon - Everybody's Falling Apart/vocal.wav
+    vocals: Sources/Test/Phre The Eon - Everybody's Falling Apart/vocals.wav
   style: Indie Funk/Rock
   test_set: 1
   title: Everybody's Falling Apart
@@ -628,7 +628,7 @@ songs:
     drums: Sources/Dev/Punkdisco - Oral Hygiene/drums.wav
     mixture: Mixtures/Dev/Punkdisco - Oral Hygiene/mixture.wav
     other: Sources/Dev/Punkdisco - Oral Hygiene/other.wav
-    vocal: Sources/Dev/Punkdisco - Oral Hygiene/vocal.wav
+    vocals: Sources/Dev/Punkdisco - Oral Hygiene/vocals.wav
   style: Punk Electronica
   test_set: 0
   title: Oral Hygiene
@@ -638,7 +638,7 @@ songs:
     drums: Sources/Test/Raft Monk - Tiring/drums.wav
     mixture: Mixtures/Test/Raft Monk - Tiring/mixture.wav
     other: Sources/Test/Raft Monk - Tiring/other.wav
-    vocal: Sources/Test/Raft Monk - Tiring/vocal.wav
+    vocals: Sources/Test/Raft Monk - Tiring/vocals.wav
   style: Electronic Rock/Pop
   test_set: 1
   title: Tiring
@@ -648,7 +648,7 @@ songs:
     drums: Sources/Dev/Remember December - C U Next Time/drums.wav
     mixture: Mixtures/Dev/Remember December - C U Next Time/mixture.wav
     other: Sources/Dev/Remember December - C U Next Time/other.wav
-    vocal: Sources/Dev/Remember December - C U Next Time/vocal.wav
+    vocals: Sources/Dev/Remember December - C U Next Time/vocals.wav
   style: Alt Pop/Rock
   test_set: 0
   title: C U Next Time
@@ -658,7 +658,7 @@ songs:
     drums: Sources/Test/Sambasevam Shanmugam - Kaathaadi/drums.wav
     mixture: Mixtures/Test/Sambasevam Shanmugam - Kaathaadi/mixture.wav
     other: Sources/Test/Sambasevam Shanmugam - Kaathaadi/other.wav
-    vocal: Sources/Test/Sambasevam Shanmugam - Kaathaadi/vocal.wav
+    vocals: Sources/Test/Sambasevam Shanmugam - Kaathaadi/vocals.wav
   style: Bollywood
   test_set: 1
   title: Kaathaadi
@@ -668,7 +668,7 @@ songs:
     drums: Sources/Dev/Secretariat - Borderline/drums.wav
     mixture: Mixtures/Dev/Secretariat - Borderline/mixture.wav
     other: Sources/Dev/Secretariat - Borderline/other.wav
-    vocal: Sources/Dev/Secretariat - Borderline/vocal.wav
+    vocals: Sources/Dev/Secretariat - Borderline/vocals.wav
   style: Americana
   test_set: 0
   title: Borderline
@@ -678,7 +678,7 @@ songs:
     drums: Sources/Test/Secretariat - Over The Top/drums.wav
     mixture: Mixtures/Test/Secretariat - Over The Top/mixture.wav
     other: Sources/Test/Secretariat - Over The Top/other.wav
-    vocal: Sources/Test/Secretariat - Over The Top/vocal.wav
+    vocals: Sources/Test/Secretariat - Over The Top/vocals.wav
   style: Americana
   test_set: 1
   title: Over The Top
@@ -688,7 +688,7 @@ songs:
     drums: Sources/Dev/Side Effects Project - Sing With Me/drums.wav
     mixture: Mixtures/Dev/Side Effects Project - Sing With Me/mixture.wav
     other: Sources/Dev/Side Effects Project - Sing With Me/other.wav
-    vocal: Sources/Dev/Side Effects Project - Sing With Me/vocal.wav
+    vocals: Sources/Dev/Side Effects Project - Sing With Me/vocals.wav
   style: West-Coast Hip-Hop
   test_set: 0
   title: Sing With Me
@@ -698,7 +698,7 @@ songs:
     drums: Sources/Test/Signe Jakobsen - What Have You Done To Me/drums.wav
     mixture: Mixtures/Test/Signe Jakobsen - What Have You Done To Me/mixture.wav
     other: Sources/Test/Signe Jakobsen - What Have You Done To Me/other.wav
-    vocal: Sources/Test/Signe Jakobsen - What Have You Done To Me/vocal.wav
+    vocals: Sources/Test/Signe Jakobsen - What Have You Done To Me/vocals.wav
   style: Rock Singer-Songwriter
   test_set: 1
   title: What Have You Done To Me
@@ -708,7 +708,7 @@ songs:
     drums: Sources/Dev/Skelpolu - Human Mistakes/drums.wav
     mixture: Mixtures/Dev/Skelpolu - Human Mistakes/mixture.wav
     other: Sources/Dev/Skelpolu - Human Mistakes/other.wav
-    vocal: Sources/Dev/Skelpolu - Human Mistakes/vocal.wav
+    vocals: Sources/Dev/Skelpolu - Human Mistakes/vocals.wav
   style: Drum & Bass
   test_set: 0
   title: Human Mistakes
@@ -718,7 +718,7 @@ songs:
     drums: Sources/Test/Skelpolu - Resurrection/drums.wav
     mixture: Mixtures/Test/Skelpolu - Resurrection/mixture.wav
     other: Sources/Test/Skelpolu - Resurrection/other.wav
-    vocal: Sources/Test/Skelpolu - Resurrection/vocal.wav
+    vocals: Sources/Test/Skelpolu - Resurrection/vocals.wav
   style: Drum & Bass
   test_set: 1
   title: Resurrection
@@ -728,7 +728,7 @@ songs:
     drums: Sources/Dev/Skelpolu - Together Alone/drums.wav
     mixture: Mixtures/Dev/Skelpolu - Together Alone/mixture.wav
     other: Sources/Dev/Skelpolu - Together Alone/other.wav
-    vocal: Sources/Dev/Skelpolu - Together Alone/vocal.wav
+    vocals: Sources/Dev/Skelpolu - Together Alone/vocals.wav
   style: Drum & Bass
   test_set: 0
   title: Together Alone
@@ -738,7 +738,7 @@ songs:
     drums: Sources/Test/Speak Softly - Broken Man/drums.wav
     mixture: Mixtures/Test/Speak Softly - Broken Man/mixture.wav
     other: Sources/Test/Speak Softly - Broken Man/other.wav
-    vocal: Sources/Test/Speak Softly - Broken Man/vocal.wav
+    vocals: Sources/Test/Speak Softly - Broken Man/vocals.wav
   style: Atmospheric Electronic Pop
   test_set: 1
   title: Broken Man
@@ -748,7 +748,7 @@ songs:
     drums: Sources/Dev/Speak Softly - Like Horses/drums.wav
     mixture: Mixtures/Dev/Speak Softly - Like Horses/mixture.wav
     other: Sources/Dev/Speak Softly - Like Horses/other.wav
-    vocal: Sources/Dev/Speak Softly - Like Horses/vocal.wav
+    vocals: Sources/Dev/Speak Softly - Like Horses/vocals.wav
   style: Atmospheric Electronic Pop
   test_set: 0
   title: Like Horses
@@ -758,7 +758,7 @@ songs:
     drums: Sources/Test/Spike Mullings - Mike's Sulking/drums.wav
     mixture: Mixtures/Test/Spike Mullings - Mike's Sulking/mixture.wav
     other: Sources/Test/Spike Mullings - Mike's Sulking/other.wav
-    vocal: Sources/Test/Spike Mullings - Mike's Sulking/vocal.wav
+    vocals: Sources/Test/Spike Mullings - Mike's Sulking/vocals.wav
   style: Indie Rock
   test_set: 1
   title: Mike's Sulking
@@ -768,7 +768,7 @@ songs:
     drums: Sources/Dev/St Vitus - Word Gets Around/drums.wav
     mixture: Mixtures/Dev/St Vitus - Word Gets Around/mixture.wav
     other: Sources/Dev/St Vitus - Word Gets Around/other.wav
-    vocal: Sources/Dev/St Vitus - Word Gets Around/vocal.wav
+    vocals: Sources/Dev/St Vitus - Word Gets Around/vocals.wav
   style: Indie Singer-Songwriter
   test_set: 0
   title: Word Gets Around
@@ -778,7 +778,7 @@ songs:
     drums: Sources/Test/Swinging Steaks - Lost My Way/drums.wav
     mixture: Mixtures/Test/Swinging Steaks - Lost My Way/mixture.wav
     other: Sources/Test/Swinging Steaks - Lost My Way/other.wav
-    vocal: Sources/Test/Swinging Steaks - Lost My Way/vocal.wav
+    vocals: Sources/Test/Swinging Steaks - Lost My Way/vocals.wav
   style: Country Rock
   test_set: 1
   title: Lost My Way
@@ -788,7 +788,7 @@ songs:
     drums: Sources/Dev/The Doppler Shift - Atrophy/drums.wav
     mixture: Mixtures/Dev/The Doppler Shift - Atrophy/mixture.wav
     other: Sources/Dev/The Doppler Shift - Atrophy/other.wav
-    vocal: Sources/Dev/The Doppler Shift - Atrophy/vocal.wav
+    vocals: Sources/Dev/The Doppler Shift - Atrophy/vocals.wav
   style: Epic Indie Rock
   test_set: 0
   title: Atrophy
@@ -798,7 +798,7 @@ songs:
     drums: Sources/Test/The Long Wait - Back Home To Blue/drums.wav
     mixture: Mixtures/Test/The Long Wait - Back Home To Blue/mixture.wav
     other: Sources/Test/The Long Wait - Back Home To Blue/other.wav
-    vocal: Sources/Test/The Long Wait - Back Home To Blue/vocal.wav
+    vocals: Sources/Test/The Long Wait - Back Home To Blue/vocals.wav
   style: Country Rock
   test_set: 1
   title: Back Home To Blue
@@ -808,7 +808,7 @@ songs:
     drums: Sources/Dev/The Long Wait - Dark Horses/drums.wav
     mixture: Mixtures/Dev/The Long Wait - Dark Horses/mixture.wav
     other: Sources/Dev/The Long Wait - Dark Horses/other.wav
-    vocal: Sources/Dev/The Long Wait - Dark Horses/vocal.wav
+    vocals: Sources/Dev/The Long Wait - Dark Horses/vocals.wav
   style: Country Rock
   test_set: 0
   title: Dark Horses
@@ -818,7 +818,7 @@ songs:
     drums: Sources/Test/The Mountaineering Club - Mallory/drums.wav
     mixture: Mixtures/Test/The Mountaineering Club - Mallory/mixture.wav
     other: Sources/Test/The Mountaineering Club - Mallory/other.wav
-    vocal: Sources/Test/The Mountaineering Club - Mallory/vocal.wav
+    vocals: Sources/Test/The Mountaineering Club - Mallory/vocals.wav
   style: Atmospheric Indie Pop
   test_set: 1
   title: Mallory
@@ -828,7 +828,7 @@ songs:
     drums: Sources/Dev/The Sunshine Garcia Band - For I Am The Moon/drums.wav
     mixture: Mixtures/Dev/The Sunshine Garcia Band - For I Am The Moon/mixture.wav
     other: Sources/Dev/The Sunshine Garcia Band - For I Am The Moon/other.wav
-    vocal: Sources/Dev/The Sunshine Garcia Band - For I Am The Moon/vocal.wav
+    vocals: Sources/Dev/The Sunshine Garcia Band - For I Am The Moon/vocals.wav
   style: Reggae/Gospel
   test_set: 0
   title: For I Am The Moon
@@ -838,7 +838,7 @@ songs:
     drums: Sources/Test/The Wrong'Uns - Rothko/drums.wav
     mixture: Mixtures/Test/The Wrong'Uns - Rothko/mixture.wav
     other: Sources/Test/The Wrong'Uns - Rothko/other.wav
-    vocal: Sources/Test/The Wrong'Uns - Rothko/vocal.wav
+    vocals: Sources/Test/The Wrong'Uns - Rothko/vocals.wav
   style: Acoustic Indie Pop
   test_set: 1
   title: Rothko
@@ -848,7 +848,7 @@ songs:
     drums: Sources/Dev/Tim Taler - Stalker/drums.wav
     mixture: Mixtures/Dev/Tim Taler - Stalker/mixture.wav
     other: Sources/Dev/Tim Taler - Stalker/other.wav
-    vocal: Sources/Dev/Tim Taler - Stalker/vocal.wav
+    vocals: Sources/Dev/Tim Taler - Stalker/vocals.wav
   style: Ukrainian Art-Punk
   test_set: 0
   title: Stalker
@@ -858,7 +858,7 @@ songs:
     drums: Sources/Test/Timboz - Pony/drums.wav
     mixture: Mixtures/Test/Timboz - Pony/mixture.wav
     other: Sources/Test/Timboz - Pony/other.wav
-    vocal: Sources/Test/Timboz - Pony/vocal.wav
+    vocals: Sources/Test/Timboz - Pony/vocals.wav
   style: Screamo Metal
   test_set: 1
   title: Pony
@@ -868,7 +868,7 @@ songs:
     drums: Sources/Dev/Titanium - Haunted Age/drums.wav
     mixture: Mixtures/Dev/Titanium - Haunted Age/mixture.wav
     other: Sources/Dev/Titanium - Haunted Age/other.wav
-    vocal: Sources/Dev/Titanium - Haunted Age/vocal.wav
+    vocals: Sources/Dev/Titanium - Haunted Age/vocals.wav
   style: Black Metal
   test_set: 0
   title: Haunted Age
@@ -878,7 +878,7 @@ songs:
     drums: Sources/Test/Tom McKenzie - Directions/drums.wav
     mixture: Mixtures/Test/Tom McKenzie - Directions/mixture.wav
     other: Sources/Test/Tom McKenzie - Directions/other.wav
-    vocal: Sources/Test/Tom McKenzie - Directions/vocal.wav
+    vocals: Sources/Test/Tom McKenzie - Directions/vocals.wav
   style: Acoustic Singer-Songwriter
   test_set: 1
   title: Directions
@@ -888,7 +888,7 @@ songs:
     drums: Sources/Dev/Traffic Experiment - Once More (With Feeling)/drums.wav
     mixture: Mixtures/Dev/Traffic Experiment - Once More (With Feeling)/mixture.wav
     other: Sources/Dev/Traffic Experiment - Once More (With Feeling)/other.wav
-    vocal: Sources/Dev/Traffic Experiment - Once More (With Feeling)/vocal.wav
+    vocals: Sources/Dev/Traffic Experiment - Once More (With Feeling)/vocals.wav
   style: Melodic Alt Rock
   test_set: 0
   title: Once More (With Feeling)
@@ -898,7 +898,7 @@ songs:
     drums: Sources/Test/Traffic Experiment - Sirens/drums.wav
     mixture: Mixtures/Test/Traffic Experiment - Sirens/mixture.wav
     other: Sources/Test/Traffic Experiment - Sirens/other.wav
-    vocal: Sources/Test/Traffic Experiment - Sirens/vocal.wav
+    vocals: Sources/Test/Traffic Experiment - Sirens/vocals.wav
   style: Melodic Alt Rock
   test_set: 1
   title: Sirens
@@ -908,7 +908,7 @@ songs:
     drums: Sources/Dev/Triviul - Angelsaint/drums.wav
     mixture: Mixtures/Dev/Triviul - Angelsaint/mixture.wav
     other: Sources/Dev/Triviul - Angelsaint/other.wav
-    vocal: Sources/Dev/Triviul - Angelsaint/vocal.wav
+    vocals: Sources/Dev/Triviul - Angelsaint/vocals.wav
   style: Leftfield Pop/Electronica
   test_set: 0
   title: Angelsaint
@@ -918,7 +918,7 @@ songs:
     drums: Sources/Test/Triviul - Dorothy/drums.wav
     mixture: Mixtures/Test/Triviul - Dorothy/mixture.wav
     other: Sources/Test/Triviul - Dorothy/other.wav
-    vocal: Sources/Test/Triviul - Dorothy/vocal.wav
+    vocals: Sources/Test/Triviul - Dorothy/vocals.wav
   style: Leftfield Pop/Electronica
   test_set: 1
   title: Dorothy
@@ -928,7 +928,7 @@ songs:
     drums: Sources/Dev/Triviul feat. The Fiend - Widow/drums.wav
     mixture: Mixtures/Dev/Triviul feat. The Fiend - Widow/mixture.wav
     other: Sources/Dev/Triviul feat. The Fiend - Widow/other.wav
-    vocal: Sources/Dev/Triviul feat. The Fiend - Widow/vocal.wav
+    vocals: Sources/Dev/Triviul feat. The Fiend - Widow/vocals.wav
   style: Urban R&B/Pop
   test_set: 0
   title: Widow
@@ -938,7 +938,7 @@ songs:
     drums: Sources/Test/Voelund - Comfort Lives In Belief/drums.wav
     mixture: Mixtures/Test/Voelund - Comfort Lives In Belief/mixture.wav
     other: Sources/Test/Voelund - Comfort Lives In Belief/other.wav
-    vocal: Sources/Test/Voelund - Comfort Lives In Belief/vocal.wav
+    vocals: Sources/Test/Voelund - Comfort Lives In Belief/vocals.wav
   style: Laid-back Blues-Rock
   test_set: 1
   title: Comfort Lives In Belief
@@ -948,7 +948,7 @@ songs:
     drums: Sources/Dev/Wall Of Death - Femme/drums.wav
     mixture: Mixtures/Dev/Wall Of Death - Femme/mixture.wav
     other: Sources/Dev/Wall Of Death - Femme/other.wav
-    vocal: Sources/Dev/Wall Of Death - Femme/vocal.wav
+    vocals: Sources/Dev/Wall Of Death - Femme/vocals.wav
   style: Black Metal
   test_set: 0
   title: Femme
@@ -958,7 +958,7 @@ songs:
     drums: Sources/Test/We Fell From The Sky - Not You/drums.wav
     mixture: Mixtures/Test/We Fell From The Sky - Not You/mixture.wav
     other: Sources/Test/We Fell From The Sky - Not You/other.wav
-    vocal: Sources/Test/We Fell From The Sky - Not You/vocal.wav
+    vocals: Sources/Test/We Fell From The Sky - Not You/vocals.wav
   style: High-Energy Heavy Rock
   test_set: 1
   title: Not You
@@ -968,7 +968,7 @@ songs:
     drums: Sources/Dev/Young Griffo - Blood To Bone/drums.wav
     mixture: Mixtures/Dev/Young Griffo - Blood To Bone/mixture.wav
     other: Sources/Dev/Young Griffo - Blood To Bone/other.wav
-    vocal: Sources/Dev/Young Griffo - Blood To Bone/vocal.wav
+    vocals: Sources/Dev/Young Griffo - Blood To Bone/vocals.wav
   style: Anthemic Heavy Rock
   test_set: 0
   title: Blood To Bone
@@ -978,7 +978,7 @@ songs:
     drums: Sources/Test/Young Griffo - Facade/drums.wav
     mixture: Mixtures/Test/Young Griffo - Facade/mixture.wav
     other: Sources/Test/Young Griffo - Facade/other.wav
-    vocal: Sources/Test/Young Griffo - Facade/vocal.wav
+    vocals: Sources/Test/Young Griffo - Facade/vocals.wav
   style: Anthemic Heavy Rock
   test_set: 1
   title: Facade
@@ -988,7 +988,7 @@ songs:
     drums: Sources/Dev/Young Griffo - Pennies/drums.wav
     mixture: Mixtures/Dev/Young Griffo - Pennies/mixture.wav
     other: Sources/Dev/Young Griffo - Pennies/other.wav
-    vocal: Sources/Dev/Young Griffo - Pennies/vocal.wav
+    vocals: Sources/Dev/Young Griffo - Pennies/vocals.wav
   style: Anthemic Heavy Rock
   test_set: 0
   title: Pennies
@@ -998,7 +998,7 @@ songs:
     drums: Sources/Test/Zeno - Signs/drums.wav
     mixture: Mixtures/Test/Zeno - Signs/mixture.wav
     other: Sources/Test/Zeno - Signs/other.wav
-    vocal: Sources/Test/Zeno - Signs/vocal.wav
+    vocals: Sources/Test/Zeno - Signs/vocals.wav
   style: Epic Indie Rock
   test_set: 1
   title: Signs
