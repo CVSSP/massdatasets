@@ -89,9 +89,10 @@ class DSD100(Dataset):
 
         for row in excel.iterrows():
 
-            artist, title = row[1]['Name'].split(' - ')
+            artist_title = row[1]['Name']
+            artist, title = artist_title.split(' - ')
             style = row[1]['Style']
-            idx = [i for i, _ in enumerate(mix_paths) if title in _][0]
+            idx = [i for i, _ in enumerate(mix_paths) if artist_title in _][0]
 
             audio = {}
             audio['mixture'] = mix_paths[idx] + '/mixture.wav'

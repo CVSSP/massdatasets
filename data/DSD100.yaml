@@ -304,11 +304,11 @@ songs:
   title: The Wind
 - artist: Flags
   audio_filepath:
-    bass: Sources/Dev/054 - Actions - South Of The Water/bass.wav
-    drums: Sources/Dev/054 - Actions - South Of The Water/drums.wav
-    mixture: Mixtures/Dev/054 - Actions - South Of The Water/mixture.wav
-    other: Sources/Dev/054 - Actions - South Of The Water/other.wav
-    vocals: Sources/Dev/054 - Actions - South Of The Water/vocals.wav
+    bass: Sources/Dev/066 - Flags - 54/bass.wav
+    drums: Sources/Dev/066 - Flags - 54/drums.wav
+    mixture: Mixtures/Dev/066 - Flags - 54/mixture.wav
+    other: Sources/Dev/066 - Flags - 54/other.wav
+    vocals: Sources/Dev/066 - Flags - 54/vocals.wav
   style: Buckley-esque Indie Rock
   test_set: 0
   title: '54'
