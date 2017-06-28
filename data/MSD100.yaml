@@ -1,4 +1,4 @@
-!!python/object:datasets.MSD100
+!!python/object:mass_datasets.MSD100
 base_path: /vol/vssp/datasets/audio/MSD100
 dataset: MSD100
 songs:
