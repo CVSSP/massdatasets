@@ -1,14 +1,13 @@
-import datasets
+import mass_datasets
 
 
 if __name__ == '__main__':
 
-    ds = datasets.DSD100('/vol/vssp/datasets/audio/DSD100')
-    ds = datasets.MSD100('/vol/vssp/datasets/audio/MSD100')
+    ds = mass_datasets.DSD100('/vol/vssp/datasets/audio/DSD100')
     ds.write()
 
     # Read yaml back in
-    ds = datasets.Dataset.read('DSD100.yml')
+    ds = mass_datasets.Dataset.read('DSD100.yaml')
     print(ds.dump())
 
     # Convert document to pandas DataFrame
