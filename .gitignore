@@ -1,3 +1,6 @@
+mass_datasets.egg-info
+build
+dist
 .ropeproject
 __pycache__
 *pyc
