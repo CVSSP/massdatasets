@@ -4,13 +4,13 @@ with open('README.rst') as file:
     long_description = file.read()
 
 setup(
-    name='mass_datasets',
+    name='massdatasets',
     version='0.1',
     description='Datasets for musical audio source separation.',
     author='Dominic Ward',
     author_email='dw0031@surrey.ac.uk',
     url='',
-    py_modules=['mass_datasets'],
+    py_modules=['massdatasets'],
     long_description=long_description,
     classifiers=[
         "License :: OSI Approved :: MIT License",
