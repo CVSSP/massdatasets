@@ -46,22 +46,47 @@ class Dataset(yaml.YAMLObject):
              **kwargs}
         )
 
-    def to_pandas_df(self):
+    def to_pandas_df(self, include_features=True):
         '''
         Compiles the yaml document to a pandas DataFrame.
         audio_filepath are complete (prefixed by base_path).
         '''
 
-        frame = pd.DataFrame(columns=self.songs[0].keys())
+        long_format = True
+        features = []
+        frames = []
+        songs = self.songs.copy()
 
-        for song in self.songs:
-            sub_frame = pd.DataFrame.from_dict(song)
-            sub_frame['audio'] = sub_frame.index
-            frame = frame.append(sub_frame, ignore_index=True)
+        for song in songs:
+            if 'feature' in song and include_features:
+                features.append(pd.DataFrame.from_dict(song.pop('feature')))
+            frames.append(pd.DataFrame.from_dict(song))
+
+        frame = pd.concat(frames, copy=False).reset_index()
+        frame.rename(columns={'index': 'source'}, inplace=True)
 
         frame['audio_filepath'] = ['/'.join((self.base_path, _))
                                    for _ in frame['audio_filepath']]
         frame['dataset'] = self.dataset
+
+        # This is clunky way to add features in long format
+        if features and include_features:
+            frame2 = pd.concat(features, copy=False)
+            cols1, cols2 = list(frame.columns), list(frame2.columns)
+
+            frame = pd.concat(
+                [frame, frame2.reset_index(drop=True)],
+                axis=1,
+                copy=False,
+            )
+
+            if long_format:
+                frame = pd.melt(frame,
+                                id_vars=cols1,
+                                value_vars=cols2,
+                                var_name='feature',
+                                value_name='value')
+
         return frame
 
 
@@ -138,7 +163,9 @@ class MUS2016(Dataset):
 
         # Tracks 36, 37, 43, and 44 should be excluded (due to corrupt data)
         results = results[~results.track_id.isin([36, 37, 43, 44])]
-        results = results.sort_values(['method', 'track_id', 'metric']).reset_index()
+        results = results.sort_values(
+            ['method', 'track_id', 'metric']
+        ).reset_index()
 
         for group, data in results.groupby(['method', 'track_id']):
 
