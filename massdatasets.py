@@ -2,6 +2,11 @@ import os
 import pandas as pd
 import yaml
 
+try:
+    Loader = yaml.CLoader
+except:
+    Loader = yaml.Loader
+
 
 class Dataset(yaml.YAMLObject):
     '''
@@ -18,7 +23,7 @@ class Dataset(yaml.YAMLObject):
     @classmethod
     def read(cls, filename=None):
         with open(filename, 'r') as f:
-            instance = yaml.load(f)
+            instance = yaml.load(f, Loader=Loader)
         return instance
 
     def write(self, filename=None):
@@ -113,3 +118,72 @@ class MSD100(DSD100):
                  base_path='/vol/vssp/datasets/audio/MSD100',
                  xlsx_name='msd100.xlsx'):
         super(MSD100, self).__init__(base_path, xlsx_name)
+
+
+class MUS2016(Dataset):
+    '''
+    The naming conventions are strange I know.
+    Basically MUS2016 is correct, but the data files we have received and are
+    available for download use 2017.
+    '''
+
+    def __init__(self,
+                 base_path='/vol/vssp/maruss/data2/MUS2017',
+                 results_filename='sisec_mus_2017_full.csv'):
+        super(MUS2016, self).__init__(base_path)
+
+        base_path = os.path.abspath(base_path)
+
+        results = pd.read_csv(os.path.join(base_path, results_filename))
+
+        # Tracks 36, 37, 43, and 44 should be excluded (due to corrupt data)
+        results = results[~results.track_id.isin([36, 37, 43, 44])]
+        results = results.sort_values(['method', 'track_id', 'metric']).reset_index()
+
+        for group, data in results.groupby(['method', 'track_id']):
+
+            row = data.iloc[0]
+            artist_title = row['title']
+            artist, title = artist_title.split(' - ')
+            style = row['genre']
+            method = group[0]
+            track_id = "{:03d}".format(group[1])
+            test_set = 1 - int(row['is_dev'])
+            test_or_dev = 'Test' if test_set else 'Dev'
+
+            # A few songs were named incorrectly for IBM
+            if method == 'IBM':
+                if track_id == '077':
+                    artist_title = 'Lyndsey Ollard - Catching Up'
+                elif track_id == '089':
+                    artist_title = 'St Vitus - Word Gets Around'
+                elif track_id == '090':
+                    artist_title = 'The Doppler Shift - Atrophy'
+
+            # Relative-to-base file path
+            path = os.path.join(method,
+                                test_or_dev,
+                                ' - '.join((track_id, artist_title)),
+                                )
+            audio = {}
+            for target in data['target']:
+                audio[target] = '{0}/{1}.wav'.format(path, target)
+
+            # BSS Eval measures
+            feature = {}
+            for metric in pd.unique(data['metric']):
+                feature[metric] = {}
+
+                for target in data['target']:
+
+                    sub = data.loc[(data.metric == metric) &
+                                   (data.target == target)]
+                    feature[metric][target] = float(sub['score'])
+
+            self.add_song(artist,
+                          title,
+                          style,
+                          audio,
+                          test_set=test_set,
+                          method=method,
+                          feature=feature)

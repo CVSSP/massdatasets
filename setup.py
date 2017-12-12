@@ -6,24 +6,18 @@ with open('README.rst') as file:
 setup(
     name='massdatasets',
     version='0.1',
-    description='Datasets for musical audio source separation.',
+    description='Datasets for musical audio source separation work.',
     author='Dominic Ward',
     author_email='dw0031@surrey.ac.uk',
     url='',
     py_modules=['massdatasets'],
     long_description=long_description,
-    classifiers=[
-        "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python",
-        'Development Status :: 5 - Production/Stable',
-        "Intended Audience :: Developers",
-        "Topic :: Multimedia :: Sound/Audio :: Analysis",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3",
-    ],
     keywords='audio music bss',
     license='MIT',
     install_requires=[
-        'pandas'
+        'numpy',
+        'pandas',
+        'xlrd',
+        'pyaml',
     ]
 )
