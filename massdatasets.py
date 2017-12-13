@@ -71,23 +71,28 @@ class Dataset(yaml.YAMLObject):
 
         # This is clunky way to add features in long format
         if features and include_features:
-            frame2 = pd.concat(features, copy=False)
-            cols1, cols2 = list(frame.columns), list(frame2.columns)
 
-            frame = pd.concat(
-                [frame, frame2.reset_index(drop=True)],
+            features = pd.concat(features, copy=False)
+
+            frame_with_features = pd.concat(
+                [frame, features.reset_index(drop=True)],
                 axis=1,
                 copy=False,
             )
 
             if long_format:
-                frame = pd.melt(frame,
-                                id_vars=cols1,
-                                value_vars=cols2,
-                                var_name='feature',
-                                value_name='value')
 
-        return frame
+                frame_with_features = pd.melt(frame_with_features,
+                                              id_vars=frame.columns,
+                                              value_vars=features.columns,
+                                              var_name='feature',
+                                              value_name='value')
+
+            return frame_with_features
+
+        else:
+
+            return frame
 
 
 class DSD100(Dataset):
