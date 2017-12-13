@@ -213,5 +213,5 @@ class MUS2016(Dataset):
                           audio,
                           test_set=test_set,
                           method=method,
-                          track_id=group[1],
+                          track_id=int(group[1]),
                           feature=feature)
