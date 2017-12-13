@@ -2,6 +2,11 @@ import os
 import pandas as pd
 import yaml
 
+try:
+    Loader = yaml.CLoader
+except:
+    Loader = yaml.Loader
+
 
 class Dataset(yaml.YAMLObject):
     '''
@@ -18,7 +23,7 @@ class Dataset(yaml.YAMLObject):
     @classmethod
     def read(cls, filename=None):
         with open(filename, 'r') as f:
-            instance = yaml.load(f)
+            instance = yaml.load(f, Loader=Loader)
         return instance
 
     def write(self, filename=None):
@@ -41,23 +46,53 @@ class Dataset(yaml.YAMLObject):
              **kwargs}
         )
 
-    def to_pandas_df(self):
+    def to_pandas_df(self, include_features=True):
         '''
         Compiles the yaml document to a pandas DataFrame.
         audio_filepath are complete (prefixed by base_path).
         '''
 
-        frame = pd.DataFrame(columns=self.songs[0].keys())
+        long_format = True
+        features = []
+        frames = []
+        songs = self.songs.copy()
 
-        for song in self.songs:
-            sub_frame = pd.DataFrame.from_dict(song)
-            sub_frame['audio'] = sub_frame.index
-            frame = frame.append(sub_frame, ignore_index=True)
+        for song in songs:
+            if 'feature' in song and include_features:
+                features.append(pd.DataFrame.from_dict(song.pop('feature')))
+            frames.append(pd.DataFrame.from_dict(song))
+
+        frame = pd.concat(frames, copy=False).reset_index()
+        frame.rename(columns={'index': 'source'}, inplace=True)
 
         frame['audio_filepath'] = ['/'.join((self.base_path, _))
                                    for _ in frame['audio_filepath']]
         frame['dataset'] = self.dataset
-        return frame
+
+        # This is clunky way to add features in long format
+        if features and include_features:
+
+            features = pd.concat(features, copy=False)
+
+            frame_with_features = pd.concat(
+                [frame, features.reset_index(drop=True)],
+                axis=1,
+                copy=False,
+            )
+
+            if long_format:
+
+                frame_with_features = pd.melt(frame_with_features,
+                                              id_vars=frame.columns,
+                                              value_vars=features.columns,
+                                              var_name='feature',
+                                              value_name='value')
+
+            return frame_with_features
+
+        else:
+
+            return frame
 
 
 class DSD100(Dataset):
@@ -113,3 +148,75 @@ class MSD100(DSD100):
                  base_path='/vol/vssp/datasets/audio/MSD100',
                  xlsx_name='msd100.xlsx'):
         super(MSD100, self).__init__(base_path, xlsx_name)
+
+
+class MUS2016(Dataset):
+    '''
+    The naming conventions are strange I know.
+    Basically MUS2016 is correct, but the data files we have received and are
+    available for download use 2017.
+    '''
+
+    def __init__(self,
+                 base_path='/vol/vssp/maruss/data2/MUS2017',
+                 results_filename='sisec_mus_2017_full.csv'):
+        super(MUS2016, self).__init__(base_path)
+
+        base_path = os.path.abspath(base_path)
+
+        results = pd.read_csv(os.path.join(base_path, results_filename))
+
+        # Tracks 36, 37, 43, and 44 should be excluded (due to corrupt data)
+        results = results[~results.track_id.isin([36, 37, 43, 44])]
+        results = results.sort_values(
+            ['method', 'track_id', 'metric']
+        ).reset_index()
+
+        for group, data in results.groupby(['method', 'track_id']):
+
+            row = data.iloc[0]
+            artist_title = row['title']
+            artist, title = artist_title.split(' - ')
+            style = row['genre']
+            method = group[0]
+            track_id = "{:03d}".format(group[1])
+            test_set = 1 - int(row['is_dev'])
+            test_or_dev = 'Test' if test_set else 'Dev'
+
+            # A few songs were named incorrectly for IBM
+            if method == 'IBM':
+                if track_id == '077':
+                    artist_title = 'Lyndsey Ollard - Catching Up'
+                elif track_id == '089':
+                    artist_title = 'St Vitus - Word Gets Around'
+                elif track_id == '090':
+                    artist_title = 'The Doppler Shift - Atrophy'
+
+            # Relative-to-base file path
+            path = os.path.join(method,
+                                test_or_dev,
+                                ' - '.join((track_id, artist_title)),
+                                )
+            audio = {}
+            for target in data['target']:
+                audio[target] = '{0}/{1}.wav'.format(path, target)
+
+            # BSS Eval measures
+            feature = {}
+            for metric in pd.unique(data['metric']):
+                feature[metric] = {}
+
+                for target in data['target']:
+
+                    sub = data.loc[(data.metric == metric) &
+                                   (data.target == target)]
+                    feature[metric][target] = float(sub['score'])
+
+            self.add_song(artist,
+                          title,
+                          style,
+                          audio,
+                          test_set=test_set,
+                          method=method,
+                          track_id=int(group[1]),
+                          feature=feature)
