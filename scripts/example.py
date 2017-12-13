@@ -3,6 +3,10 @@ import massdatasets
 
 if __name__ == '__main__':
 
+    ds = massdatasets.MUS2016('/vol/vssp/maruss/data2/MUS2017')
+    ds.write()
+
+    '''
     ds = massdatasets.DSD100('/vol/vssp/datasets/audio/DSD100')
     ds.write()
 
@@ -13,3 +17,4 @@ if __name__ == '__main__':
     # Convert document to pandas DataFrame
     df = ds.to_pandas_df()
     print(df.head())
+    '''
