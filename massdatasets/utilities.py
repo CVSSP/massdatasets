@@ -19,8 +19,8 @@ def join_dsd100_and_mus2016_dataframes(df_dsd, df_mus):
     df_dsd = df_dsd[idx]
 
     df = pd.concat([df_mus, df_dsd])
+    ordered_columns = pd.unique(list(df_mus.columns) + list(df_dsd.columns))
+    df = df[ordered_columns]
     df = df.sort_values(by=['track_id', 'method'])
     df = df.reset_index(drop=True)
-    df = df[['track_id', 'source', 'method', 'artist', 'title', 'style',
-             'audio_filepath', 'dataset', 'test_set', 'feature', 'value']]
     return df
