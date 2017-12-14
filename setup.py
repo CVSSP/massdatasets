@@ -10,7 +10,7 @@ setup(
     author='Dominic Ward',
     author_email='dw0031@surrey.ac.uk',
     url='',
-    py_modules=['massdatasets'],
+    packages=['massdatasets'],
     long_description=long_description,
     keywords='audio music bss',
     license='MIT',
