@@ -17548,11 +17548,11 @@ songs:
   track_id: 76
 - artist: Lyndsey Ollard
   audio_filepath:
-    accompaniment: IBM/Dev/077 - Lyndsey Ollard - Catching Up/accompaniment.wav
-    bass: IBM/Dev/077 - Lyndsey Ollard - Catching Up/bass.wav
-    drums: IBM/Dev/077 - Lyndsey Ollard - Catching Up/drums.wav
-    other: IBM/Dev/077 - Lyndsey Ollard - Catching Up/other.wav
-    vocals: IBM/Dev/077 - Lyndsey Ollard - Catching Up/vocals.wav
+    accompaniment: IBM/Dev/077 - Lyndsey Ollard - CatchingUp/accompaniment.wav
+    bass: IBM/Dev/077 - Lyndsey Ollard - CatchingUp/bass.wav
+    drums: IBM/Dev/077 - Lyndsey Ollard - CatchingUp/drums.wav
+    other: IBM/Dev/077 - Lyndsey Ollard - CatchingUp/other.wav
+    vocals: IBM/Dev/077 - Lyndsey Ollard - CatchingUp/vocals.wav
   feature:
     ISR:
       accompaniment: 23.35830481533875
@@ -17992,11 +17992,11 @@ songs:
   track_id: 88
 - artist: St Vitus
   audio_filepath:
-    accompaniment: IBM/Dev/089 - St Vitus - Word Gets Around/accompaniment.wav
-    bass: IBM/Dev/089 - St Vitus - Word Gets Around/bass.wav
-    drums: IBM/Dev/089 - St Vitus - Word Gets Around/drums.wav
-    other: IBM/Dev/089 - St Vitus - Word Gets Around/other.wav
-    vocals: IBM/Dev/089 - St Vitus - Word Gets Around/vocals.wav
+    accompaniment: IBM/Dev/089 - St Vitus - Words Gets Around/accompaniment.wav
+    bass: IBM/Dev/089 - St Vitus - Words Gets Around/bass.wav
+    drums: IBM/Dev/089 - St Vitus - Words Gets Around/drums.wav
+    other: IBM/Dev/089 - St Vitus - Words Gets Around/other.wav
+    vocals: IBM/Dev/089 - St Vitus - Words Gets Around/vocals.wav
   feature:
     ISR:
       accompaniment: 22.344671047593106
@@ -18029,11 +18029,11 @@ songs:
   track_id: 89
 - artist: The Doppler Shift
   audio_filepath:
-    accompaniment: IBM/Dev/090 - The Doppler Shift - Atrophy/accompaniment.wav
-    bass: IBM/Dev/090 - The Doppler Shift - Atrophy/bass.wav
-    drums: IBM/Dev/090 - The Doppler Shift - Atrophy/drums.wav
-    other: IBM/Dev/090 - The Doppler Shift - Atrophy/other.wav
-    vocals: IBM/Dev/090 - The Doppler Shift - Atrophy/vocals.wav
+    accompaniment: IBM/Dev/090 - Doppler Shift - Atrophy/accompaniment.wav
+    bass: IBM/Dev/090 - Doppler Shift - Atrophy/bass.wav
+    drums: IBM/Dev/090 - Doppler Shift - Atrophy/drums.wav
+    other: IBM/Dev/090 - Doppler Shift - Atrophy/other.wav
+    vocals: IBM/Dev/090 - Doppler Shift - Atrophy/vocals.wav
   feature:
     ISR:
       accompaniment: 28.092743123571825

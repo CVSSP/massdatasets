@@ -183,14 +183,14 @@ class MUS2016(Dataset):
             test_set = 1 - int(row['is_dev'])
             test_or_dev = 'Test' if test_set else 'Dev'
 
-            # A few songs were named incorrectly for IBM
+            # The folder names are incorrect forthe IBM, so we fix it here
             if method == 'IBM':
                 if track_id == '077':
-                    artist_title = 'Lyndsey Ollard - Catching Up'
+                    artist_title = 'Lyndsey Ollard - CatchingUp'
                 elif track_id == '089':
-                    artist_title = 'St Vitus - Word Gets Around'
+                    artist_title = 'St Vitus - Words Gets Around'
                 elif track_id == '090':
-                    artist_title = 'The Doppler Shift - Atrophy'
+                    artist_title = 'Doppler Shift - Atrophy'
 
             # Relative-to-base file path
             path = os.path.join(method,
