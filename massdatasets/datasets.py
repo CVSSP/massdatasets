@@ -172,6 +172,10 @@ class MUS2016(Dataset):
             ['method', 'track_id', 'metric']
         ).reset_index()
 
+        # Track 23 has an error in its artist entry
+        results.loc[results.track_id == 23, 'title'] = \
+            'Jokers, Jacks & Kings - Sea Of Leaves'
+
         for group, data in results.groupby(['method', 'track_id']):
 
             row = data.iloc[0]
