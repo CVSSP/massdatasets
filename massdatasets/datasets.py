@@ -183,7 +183,7 @@ class MUS2016(Dataset):
             test_set = 1 - int(row['is_dev'])
             test_or_dev = 'Test' if test_set else 'Dev'
 
-            # The folder names are incorrect forthe IBM, so we fix it here
+            # The folder names are incorrect for the IBM, so we fix it here
             if method == 'IBM':
                 if track_id == '077':
                     artist_title = 'Lyndsey Ollard - CatchingUp'
