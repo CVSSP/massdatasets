@@ -1,4 +1,4 @@
-!!python/object:massdatasets.MUS2016
+!!python/object:massdatasets.datasets.MUS2016
 base_path: /vol/vssp/maruss/data2/MUS2017
 dataset: MUS2016
 songs:

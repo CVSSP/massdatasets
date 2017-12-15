@@ -1,4 +1,4 @@
-!!python/object:massdatasets.DSD100
+!!python/object:massdatasets.datasets.DSD100
 base_path: /vol/vssp/maruss/data2/DSD100
 dataset: DSD100
 songs:
