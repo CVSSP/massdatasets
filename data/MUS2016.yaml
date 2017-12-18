@@ -1,4 +1,4 @@
-!!python/object:massdatasets.MUS2016
+!!python/object:massdatasets.datasets.MUS2016
 base_path: /vol/vssp/maruss/data2/MUS2017
 dataset: MUS2016
 songs:
@@ -816,13 +816,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: CHA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: CHA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: CHA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: CHA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: CHA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: CHA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: CHA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: CHA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: CHA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: CHA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 8.594749756711419
@@ -4038,10 +4038,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: DUR/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: DUR/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: DUR/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: DUR/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 1.7984670624488819
@@ -6480,13 +6480,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: GRA2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: GRA2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: GRA2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: GRA2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: GRA2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: GRA2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: GRA2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: GRA2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: GRA2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: GRA2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: -5.781875362803231
@@ -10032,13 +10032,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: GRA3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: GRA3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: GRA3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: GRA3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: GRA3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: GRA3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: GRA3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: GRA3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: GRA3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: GRA3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: -6.140862443522996
@@ -13254,10 +13254,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: HUA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: HUA/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: HUA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: HUA/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 11.192133293523906
@@ -15696,13 +15696,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: IBM/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: IBM/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: IBM/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: IBM/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: IBM/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: IBM/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: IBM/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: IBM/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: IBM/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: IBM/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 25.44984487394506
@@ -18918,10 +18918,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: JEO1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: JEO1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: JEO1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: JEO1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 16.378101469646733
@@ -21030,10 +21030,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: JEO2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: JEO2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: JEO2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: JEO2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 15.099795018182675
@@ -23142,10 +23142,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: KAM1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: KAM1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: KAM1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: KAM1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 18.285333675136027
@@ -25254,10 +25254,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: KAM2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: KAM2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: KAM2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: KAM2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 12.201244222454646
@@ -27696,13 +27696,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: KON/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: KON/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: KON/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: KON/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: KON/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: KON/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: KON/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: KON/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: KON/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: KON/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 9.624681998551704
@@ -31248,13 +31248,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: NUG1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: NUG1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: NUG1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: NUG1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: NUG1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: NUG1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: NUG1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: NUG1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: NUG1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: NUG1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 15.023177045066097
@@ -34800,13 +34800,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: NUG2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: NUG2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: NUG2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: NUG2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: NUG2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: NUG2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: NUG2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: NUG2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: NUG2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: NUG2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 15.015991931929747
@@ -38352,13 +38352,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: NUG3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: NUG3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: NUG3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: NUG3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: NUG3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: NUG3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: NUG3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: NUG3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: NUG3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: NUG3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 16.019056939365807
@@ -41904,13 +41904,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: NUG4/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: NUG4/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: NUG4/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: NUG4/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: NUG4/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: NUG4/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: NUG4/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: NUG4/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: NUG4/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: NUG4/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 15.332946455864732
@@ -45456,13 +45456,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: OZE/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: OZE/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: OZE/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: OZE/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: OZE/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: OZE/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: OZE/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: OZE/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: OZE/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: OZE/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 13.706735440775141
@@ -48678,10 +48678,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: RAF1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: RAF1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: RAF1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: RAF1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 9.42795216369541
@@ -50790,10 +50790,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: RAF2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: RAF2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: RAF2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: RAF2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 8.998441409459769
@@ -52902,10 +52902,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: RAF3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: RAF3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: RAF3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: RAF3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 10.989290158914146
@@ -55014,10 +55014,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: STO1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: STO1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: STO1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: STO1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 16.27182286674836
@@ -57126,10 +57126,10 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: STO2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    vocals: STO2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: STO2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    vocals: STO2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 15.858265853482894
@@ -59568,13 +59568,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: UHL1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: UHL1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: UHL1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: UHL1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: UHL1/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: UHL1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: UHL1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: UHL1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: UHL1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: UHL1/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 17.500810926644732
@@ -63120,13 +63120,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: UHL2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: UHL2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: UHL2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: UHL2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: UHL2/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: UHL2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: UHL2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: UHL2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: UHL2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: UHL2/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 15.607566797390433
@@ -66672,13 +66672,13 @@ songs:
   test_set: 1
   title: Promises & Lies
   track_id: 22
-- artist: Jokers Jacks & Kings
+- artist: Jokers, Jacks & Kings
   audio_filepath:
-    accompaniment: UHL3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/accompaniment.wav
-    bass: UHL3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/bass.wav
-    drums: UHL3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/drums.wav
-    other: UHL3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/other.wav
-    vocals: UHL3/Test/023 - Jokers Jacks & Kings - Sea Of Leaves/vocals.wav
+    accompaniment: UHL3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/accompaniment.wav
+    bass: UHL3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
+    drums: UHL3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/drums.wav
+    other: UHL3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/other.wav
+    vocals: UHL3/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/vocals.wav
   feature:
     ISR:
       accompaniment: 16.521467620273942
