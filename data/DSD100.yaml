@@ -12,6 +12,7 @@ songs:
   style: Power Pop
   test_set: 0
   title: Devil's Words
+  track_id: 53
 - artist: Actions
   audio_filepath:
     bass: Sources/Test/003 - Actions - One Minute Smile/bass.wav
@@ -22,6 +23,7 @@ songs:
   style: Power Pop
   test_set: 1
   title: One Minute Smile
+  track_id: 3
 - artist: Actions
   audio_filepath:
     bass: Sources/Dev/054 - Actions - South Of The Water/bass.wav
@@ -32,6 +34,7 @@ songs:
   style: Power Pop
   test_set: 0
   title: South Of The Water
+  track_id: 54
 - artist: Al James
   audio_filepath:
     bass: Sources/Test/004 - Al James - Schoolboy Facination/bass.wav
@@ -42,6 +45,7 @@ songs:
   style: Bubblegum Pop
   test_set: 1
   title: Schoolboy Facination
+  track_id: 4
 - artist: AM Contra
   audio_filepath:
     bass: Sources/Dev/051 - AM Contra - Heart Peripheral/bass.wav
@@ -52,6 +56,7 @@ songs:
   style: Electronic Dance Pop
   test_set: 0
   title: Heart Peripheral
+  track_id: 51
 - artist: Angela Thomas Wade
   audio_filepath:
     bass: Sources/Test/005 - Angela Thomas Wade - Milk Cow Blues/bass.wav
@@ -62,6 +67,7 @@ songs:
   style: Country
   test_set: 1
   title: Milk Cow Blues
+  track_id: 5
 - artist: Angels In Amplifiers
   audio_filepath:
     bass: Sources/Dev/055 - Angels In Amplifiers - I'm Alright/bass.wav
@@ -72,6 +78,7 @@ songs:
   style: Smooth Acoustic Rock
   test_set: 0
   title: I'm Alright
+  track_id: 55
 - artist: ANiMAL
   audio_filepath:
     bass: Sources/Test/001 - ANiMAL - Clinic A/bass.wav
@@ -82,6 +89,7 @@ songs:
   style: UK Hip-Hop
   test_set: 1
   title: Clinic A
+  track_id: 1
 - artist: ANiMAL
   audio_filepath:
     bass: Sources/Dev/052 - ANiMAL - Easy Tiger/bass.wav
@@ -92,6 +100,7 @@ songs:
   style: UK Hip-Hop
   test_set: 0
   title: Easy Tiger
+  track_id: 52
 - artist: ANiMAL
   audio_filepath:
     bass: Sources/Test/002 - ANiMAL - Rockshow/bass.wav
@@ -102,6 +111,7 @@ songs:
   style: UK Hip-Hop
   test_set: 1
   title: Rockshow
+  track_id: 2
 - artist: Arise
   audio_filepath:
     bass: Sources/Dev/056 - Arise - Run Run Run/bass.wav
@@ -112,6 +122,7 @@ songs:
   style: Roots Reggae
   test_set: 0
   title: Run Run Run
+  track_id: 56
 - artist: Atlantis Bound
   audio_filepath:
     bass: Sources/Test/006 - Atlantis Bound - It Was My Fault For Waiting/bass.wav
@@ -122,6 +133,7 @@ songs:
   style: Widescreen Pop/Rock
   test_set: 1
   title: It Was My Fault For Waiting
+  track_id: 6
 - artist: Ben Carrigan
   audio_filepath:
     bass: Sources/Dev/058 - Ben Carrigan - We'll Talk About It All Tonight/bass.wav
@@ -132,6 +144,7 @@ songs:
   style: Orchestral Indie Pop
   test_set: 0
   title: We'll Talk About It All Tonight
+  track_id: 58
 - artist: Bill Chudziak
   audio_filepath:
     bass: Sources/Test/008 - Bill Chudziak - Children Of No-one/bass.wav
@@ -142,6 +155,7 @@ songs:
   style: Classic Psychedelic Rock
   test_set: 1
   title: Children Of No-one
+  track_id: 8
 - artist: BKS
   audio_filepath:
     bass: Sources/Dev/057 - BKS - Bulldozer/bass.wav
@@ -152,6 +166,7 @@ songs:
   style: Rock
   test_set: 0
   title: Bulldozer
+  track_id: 57
 - artist: BKS
   audio_filepath:
     bass: Sources/Test/007 - BKS - Too Much/bass.wav
@@ -162,6 +177,7 @@ songs:
   style: Rock
   test_set: 1
   title: Too Much
+  track_id: 7
 - artist: Black Bloc
   audio_filepath:
     bass: Sources/Dev/059 - Black Bloc - If You Want Success/bass.wav
@@ -172,6 +188,7 @@ songs:
   style: Political Funk/Rock
   test_set: 0
   title: If You Want Success
+  track_id: 59
 - artist: Bobby Nobody
   audio_filepath:
     bass: Sources/Test/009 - Bobby Nobody - Stitch Up/bass.wav
@@ -182,6 +199,7 @@ songs:
   style: Indie Pop/Rock
   test_set: 1
   title: Stitch Up
+  track_id: 9
 - artist: Buitraker
   audio_filepath:
     bass: Sources/Dev/060 - Buitraker - Revo X/bass.wav
@@ -192,6 +210,7 @@ songs:
   style: Basque Indie Rock
   test_set: 0
   title: Revo X
+  track_id: 60
 - artist: Carlos Gonzalez
   audio_filepath:
     bass: Sources/Test/010 - Carlos Gonzalez - A Place For Us/bass.wav
@@ -202,6 +221,7 @@ songs:
   style: Indie Pop/Rock
   test_set: 1
   title: A Place For Us
+  track_id: 10
 - artist: Chris Durban
   audio_filepath:
     bass: Sources/Dev/061 - Chris Durban - Celebrate/bass.wav
@@ -212,6 +232,7 @@ songs:
   style: Dark Break-based Dance
   test_set: 0
   title: Celebrate
+  track_id: 61
 - artist: Cnoc An Tursa
   audio_filepath:
     bass: Sources/Test/011 - Cnoc An Tursa - Bannockburn/bass.wav
@@ -222,6 +243,7 @@ songs:
   style: Death Metal
   test_set: 1
   title: Bannockburn
+  track_id: 11
 - artist: Cristina Vane
   audio_filepath:
     bass: Sources/Dev/062 - Cristina Vane - So Easy/bass.wav
@@ -232,6 +254,7 @@ songs:
   style: Acoustic Singer-Songwriter
   test_set: 0
   title: So Easy
+  track_id: 62
 - artist: Dark Ride
   audio_filepath:
     bass: Sources/Test/012 - Dark Ride - Burning Bridges/bass.wav
@@ -242,6 +265,7 @@ songs:
   style: Heavy Metal
   test_set: 1
   title: Burning Bridges
+  track_id: 12
 - artist: Detsky Sad
   audio_filepath:
     bass: Sources/Dev/063 - Detsky Sad - Walkie Talkie/bass.wav
@@ -252,6 +276,7 @@ songs:
   style: Ukrainian Indie Rock
   test_set: 0
   title: Walkie Talkie
+  track_id: 63
 - artist: Drumtracks
   audio_filepath:
     bass: Sources/Test/013 - Drumtracks - Ghost Bitch/bass.wav
@@ -262,6 +287,7 @@ songs:
   style: Leftfield Pop/Electronica
   test_set: 1
   title: Ghost Bitch
+  track_id: 13
 - artist: Enda Reilly
   audio_filepath:
     bass: Sources/Dev/064 - Enda Reilly - Cur An Long Ag Seol/bass.wav
@@ -272,6 +298,7 @@ songs:
   style: Irish-Language Singer-Songwriter
   test_set: 0
   title: Cur An Long Ag Seol
+  track_id: 64
 - artist: Fergessen
   audio_filepath:
     bass: Sources/Test/014 - Fergessen - Back From The Start/bass.wav
@@ -282,6 +309,7 @@ songs:
   style: Melodic Indie Rock
   test_set: 1
   title: Back From The Start
+  track_id: 14
 - artist: Fergessen
   audio_filepath:
     bass: Sources/Dev/065 - Fergessen - Nos Palpitants/bass.wav
@@ -292,6 +320,7 @@ songs:
   style: Melodic Indie Rock
   test_set: 0
   title: Nos Palpitants
+  track_id: 65
 - artist: Fergessen
   audio_filepath:
     bass: Sources/Test/015 - Fergessen - The Wind/bass.wav
@@ -302,6 +331,7 @@ songs:
   style: Melodic Indie Rock
   test_set: 1
   title: The Wind
+  track_id: 15
 - artist: Flags
   audio_filepath:
     bass: Sources/Dev/066 - Flags - 54/bass.wav
@@ -312,6 +342,7 @@ songs:
   style: Buckley-esque Indie Rock
   test_set: 0
   title: '54'
+  track_id: 66
 - artist: Forkupines
   audio_filepath:
     bass: Sources/Test/016 - Forkupines - Semantics/bass.wav
@@ -322,6 +353,7 @@ songs:
   style: Alternative Punk-Rock
   test_set: 1
   title: Semantics
+  track_id: 16
 - artist: Georgia Wonder
   audio_filepath:
     bass: Sources/Dev/067 - Georgia Wonder - Siren/bass.wav
@@ -332,6 +364,7 @@ songs:
   style: 'Pop Disco/Rock '
   test_set: 0
   title: Siren
+  track_id: 67
 - artist: Girls Under Glass
   audio_filepath:
     bass: Sources/Test/017 - Girls Under Glass - We Feel Alright/bass.wav
@@ -342,6 +375,7 @@ songs:
   style: Gothic Electro
   test_set: 1
   title: We Feel Alright
+  track_id: 17
 - artist: Giselle
   audio_filepath:
     bass: Sources/Dev/068 - Giselle - Moss/bass.wav
@@ -352,6 +386,7 @@ songs:
   style: Electronica/Classical Crossover
   test_set: 0
   title: Moss
+  track_id: 68
 - artist: Hollow Ground
   audio_filepath:
     bass: Sources/Test/018 - Hollow Ground - Ill Fate/bass.wav
@@ -362,6 +397,7 @@ songs:
   style: Death Metal
   test_set: 1
   title: Ill Fate
+  track_id: 18
 - artist: Hollow Ground
   audio_filepath:
     bass: Sources/Dev/069 - Hollow Ground - Left Blind/bass.wav
@@ -372,6 +408,7 @@ songs:
   style: Death Metal
   test_set: 0
   title: Left Blind
+  track_id: 69
 - artist: James Elder & Mark M Thompson
   audio_filepath:
     bass: Sources/Test/019 - James Elder & Mark M Thompson - The English Actor/bass.wav
@@ -382,6 +419,7 @@ songs:
   style: Indie Pop
   test_set: 1
   title: The English Actor
+  track_id: 19
 - artist: James May
   audio_filepath:
     bass: Sources/Dev/070 - James May - All Souls Moon/bass.wav
@@ -392,6 +430,7 @@ songs:
   style: Acoustic Singer-Songwriter
   test_set: 0
   title: All Souls Moon
+  track_id: 70
 - artist: James May
   audio_filepath:
     bass: Sources/Test/020 - James May - Dont Let Go/bass.wav
@@ -402,6 +441,7 @@ songs:
   style: Acoustic Singer-Songwriter
   test_set: 1
   title: Dont Let Go
+  track_id: 20
 - artist: James May
   audio_filepath:
     bass: Sources/Dev/071 - James May - If You Say/bass.wav
@@ -412,6 +452,7 @@ songs:
   style: Acoustic Singer-Songwriter
   test_set: 0
   title: If You Say
+  track_id: 71
 - artist: James May
   audio_filepath:
     bass: Sources/Test/021 - James May - On The Line/bass.wav
@@ -422,6 +463,7 @@ songs:
   style: Acoustic Singer-Songwriter
   test_set: 1
   title: On The Line
+  track_id: 21
 - artist: Jay Menon
   audio_filepath:
     bass: Sources/Dev/072 - Jay Menon - Through My Eyes/bass.wav
@@ -432,6 +474,7 @@ songs:
   style: Intimate Pop Ballad
   test_set: 0
   title: Through My Eyes
+  track_id: 72
 - artist: Johnny Lokke
   audio_filepath:
     bass: Sources/Test/022 - Johnny Lokke - Promises & Lies/bass.wav
@@ -442,6 +485,7 @@ songs:
   style: Classic Heavy Rock
   test_set: 1
   title: Promises & Lies
+  track_id: 22
 - artist: Johnny Lokke
   audio_filepath:
     bass: Sources/Dev/073 - Johnny Lokke - Whisper To A Scream/bass.wav
@@ -452,6 +496,7 @@ songs:
   style: Classic Heavy Rock
   test_set: 0
   title: Whisper To A Scream
+  track_id: 73
 - artist: Jokers, Jacks & Kings
   audio_filepath:
     bass: Sources/Test/023 - Jokers, Jacks & Kings - Sea Of Leaves/bass.wav
@@ -462,6 +507,7 @@ songs:
   style: Uptempo Indie Rock
   test_set: 1
   title: Sea Of Leaves
+  track_id: 23
 - artist: Juliet's Rescue
   audio_filepath:
     bass: Sources/Dev/074 - Juliet's Rescue - Heartbeats/bass.wav
@@ -472,6 +518,7 @@ songs:
   style: Club Rock
   test_set: 0
   title: Heartbeats
+  track_id: 74
 - artist: Leaf
   audio_filepath:
     bass: Sources/Test/024 - Leaf - Come Around/bass.wav
@@ -482,6 +529,7 @@ songs:
   style: Atmospheric Indie Pop
   test_set: 1
   title: Come Around
+  track_id: 24
 - artist: Leaf
   audio_filepath:
     bass: Sources/Dev/075 - Leaf - Summerghost/bass.wav
@@ -492,6 +540,7 @@ songs:
   style: Atmospheric Indie Pop
   test_set: 0
   title: Summerghost
+  track_id: 75
 - artist: Leaf
   audio_filepath:
     bass: Sources/Test/025 - Leaf - Wicked/bass.wav
@@ -502,6 +551,7 @@ songs:
   style: Atmospheric Indie Pop
   test_set: 1
   title: Wicked
+  track_id: 25
 - artist: Little Chicago's Finest
   audio_filepath:
     bass: Sources/Dev/076 - Little Chicago's Finest - My Own/bass.wav
@@ -512,6 +562,7 @@ songs:
   style: Hip-Hop
   test_set: 0
   title: My Own
+  track_id: 76
 - artist: Louis Cressy Band
   audio_filepath:
     bass: Sources/Test/026 - Louis Cressy Band - Good Time/bass.wav
@@ -522,6 +573,7 @@ songs:
   style: Funk Rock
   test_set: 1
   title: Good Time
+  track_id: 26
 - artist: Lyndsey Ollard
   audio_filepath:
     bass: Sources/Dev/077 - Lyndsey Ollard - Catching Up/bass.wav
@@ -532,6 +584,7 @@ songs:
   style: MOR Singer-Songwriter
   test_set: 0
   title: Catching Up
+  track_id: 77
 - artist: M.E.R.C. Music
   audio_filepath:
     bass: Sources/Test/027 - M.E.R.C. Music - Knockout/bass.wav
@@ -542,6 +595,7 @@ songs:
   style: Mainstream Hip-Hop
   test_set: 1
   title: Knockout
+  track_id: 27
 - artist: Moosmusic
   audio_filepath:
     bass: Sources/Dev/078 - Moosmusic - Big Dummy Shake/bass.wav
@@ -552,6 +606,7 @@ songs:
   style: Indie Pop/Rock
   test_set: 0
   title: Big Dummy Shake
+  track_id: 78
 - artist: Motor Tapes
   audio_filepath:
     bass: Sources/Test/028 - Motor Tapes - Shore/bass.wav
@@ -562,6 +617,7 @@ songs:
   style: Indie Rock
   test_set: 1
   title: Shore
+  track_id: 28
 - artist: Mu
   audio_filepath:
     bass: Sources/Dev/079 - Mu - Too Bright/bass.wav
@@ -572,6 +628,7 @@ songs:
   style: Alternative Electro Rock
   test_set: 0
   title: Too Bright
+  track_id: 79
 - artist: Nerve 9
   audio_filepath:
     bass: Sources/Test/029 - Nerve 9 - Pray For The Rain/bass.wav
@@ -582,6 +639,7 @@ songs:
   style: Alternative Rock Ballad
   test_set: 1
   title: Pray For The Rain
+  track_id: 29
 - artist: North To Alaska
   audio_filepath:
     bass: Sources/Dev/080 - North To Alaska - All The Same/bass.wav
@@ -592,6 +650,7 @@ songs:
   style: Emo Rock
   test_set: 0
   title: All The Same
+  track_id: 80
 - artist: Patrick Talbot
   audio_filepath:
     bass: Sources/Test/030 - Patrick Talbot - A Reason To Leave/bass.wav
@@ -602,6 +661,7 @@ songs:
   style: Jazz/Singer-Songwriter
   test_set: 1
   title: A Reason To Leave
+  track_id: 30
 - artist: Patrick Talbot
   audio_filepath:
     bass: Sources/Dev/081 - Patrick Talbot - Set Me Free/bass.wav
@@ -612,6 +672,7 @@ songs:
   style: Jazz/Singer-Songwriter
   test_set: 0
   title: Set Me Free
+  track_id: 81
 - artist: Phre The Eon
   audio_filepath:
     bass: Sources/Test/031 - Phre The Eon - Everybody's Falling Apart/bass.wav
@@ -622,6 +683,7 @@ songs:
   style: Indie Funk/Rock
   test_set: 1
   title: Everybody's Falling Apart
+  track_id: 31
 - artist: Punkdisco
   audio_filepath:
     bass: Sources/Dev/082 - Punkdisco - Oral Hygiene/bass.wav
@@ -632,6 +694,7 @@ songs:
   style: Punk Electronica
   test_set: 0
   title: Oral Hygiene
+  track_id: 82
 - artist: Raft Monk
   audio_filepath:
     bass: Sources/Test/032 - Raft Monk - Tiring/bass.wav
@@ -642,6 +705,7 @@ songs:
   style: Electronic Rock/Pop
   test_set: 1
   title: Tiring
+  track_id: 32
 - artist: Remember December
   audio_filepath:
     bass: Sources/Dev/083 - Remember December - C U Next Time/bass.wav
@@ -652,6 +716,7 @@ songs:
   style: Alt Pop/Rock
   test_set: 0
   title: C U Next Time
+  track_id: 83
 - artist: Sambasevam Shanmugam
   audio_filepath:
     bass: Sources/Test/033 - Sambasevam Shanmugam - Kaathaadi/bass.wav
@@ -662,6 +727,7 @@ songs:
   style: Bollywood
   test_set: 1
   title: Kaathaadi
+  track_id: 33
 - artist: Secretariat
   audio_filepath:
     bass: Sources/Dev/084 - Secretariat - Borderline/bass.wav
@@ -672,6 +738,7 @@ songs:
   style: Americana
   test_set: 0
   title: Borderline
+  track_id: 84
 - artist: Secretariat
   audio_filepath:
     bass: Sources/Test/034 - Secretariat - Over The Top/bass.wav
@@ -682,6 +749,7 @@ songs:
   style: Americana
   test_set: 1
   title: Over The Top
+  track_id: 34
 - artist: Side Effects Project
   audio_filepath:
     bass: Sources/Dev/085 - Side Effects Project - Sing With Me/bass.wav
@@ -692,6 +760,7 @@ songs:
   style: West-Coast Hip-Hop
   test_set: 0
   title: Sing With Me
+  track_id: 85
 - artist: Signe Jakobsen
   audio_filepath:
     bass: Sources/Test/035 - Signe Jakobsen - What Have You Done To Me/bass.wav
@@ -702,6 +771,7 @@ songs:
   style: Rock Singer-Songwriter
   test_set: 1
   title: What Have You Done To Me
+  track_id: 35
 - artist: Skelpolu
   audio_filepath:
     bass: Sources/Dev/086 - Skelpolu - Human Mistakes/bass.wav
@@ -712,6 +782,7 @@ songs:
   style: Drum & Bass
   test_set: 0
   title: Human Mistakes
+  track_id: 86
 - artist: Skelpolu
   audio_filepath:
     bass: Sources/Test/036 - Skelpolu - Resurrection/bass.wav
@@ -722,6 +793,7 @@ songs:
   style: Drum & Bass
   test_set: 1
   title: Resurrection
+  track_id: 36
 - artist: Skelpolu
   audio_filepath:
     bass: Sources/Dev/087 - Skelpolu - Together Alone/bass.wav
@@ -732,6 +804,7 @@ songs:
   style: Drum & Bass
   test_set: 0
   title: Together Alone
+  track_id: 87
 - artist: Speak Softly
   audio_filepath:
     bass: Sources/Test/037 - Speak Softly - Broken Man/bass.wav
@@ -742,6 +815,7 @@ songs:
   style: Atmospheric Electronic Pop
   test_set: 1
   title: Broken Man
+  track_id: 37
 - artist: Speak Softly
   audio_filepath:
     bass: Sources/Dev/088 - Speak Softly - Like Horses/bass.wav
@@ -752,6 +826,7 @@ songs:
   style: Atmospheric Electronic Pop
   test_set: 0
   title: Like Horses
+  track_id: 88
 - artist: Spike Mullings
   audio_filepath:
     bass: Sources/Test/038 - Spike Mullings - Mike's Sulking/bass.wav
@@ -762,6 +837,7 @@ songs:
   style: Indie Rock
   test_set: 1
   title: Mike's Sulking
+  track_id: 38
 - artist: St Vitus
   audio_filepath:
     bass: Sources/Dev/089 - St Vitus - Word Gets Around/bass.wav
@@ -772,6 +848,7 @@ songs:
   style: Indie Singer-Songwriter
   test_set: 0
   title: Word Gets Around
+  track_id: 89
 - artist: Swinging Steaks
   audio_filepath:
     bass: Sources/Test/039 - Swinging Steaks - Lost My Way/bass.wav
@@ -782,6 +859,7 @@ songs:
   style: Country Rock
   test_set: 1
   title: Lost My Way
+  track_id: 39
 - artist: The Doppler Shift
   audio_filepath:
     bass: Sources/Dev/090 - The Doppler Shift - Atrophy/bass.wav
@@ -792,6 +870,7 @@ songs:
   style: Epic Indie Rock
   test_set: 0
   title: Atrophy
+  track_id: 90
 - artist: The Long Wait
   audio_filepath:
     bass: Sources/Test/040 - The Long Wait - Back Home To Blue/bass.wav
@@ -802,6 +881,7 @@ songs:
   style: Country Rock
   test_set: 1
   title: Back Home To Blue
+  track_id: 40
 - artist: The Long Wait
   audio_filepath:
     bass: Sources/Dev/091 - The Long Wait - Dark Horses/bass.wav
@@ -812,6 +892,7 @@ songs:
   style: Country Rock
   test_set: 0
   title: Dark Horses
+  track_id: 91
 - artist: The Mountaineering Club
   audio_filepath:
     bass: Sources/Test/041 - The Mountaineering Club - Mallory/bass.wav
@@ -822,6 +903,7 @@ songs:
   style: Atmospheric Indie Pop
   test_set: 1
   title: Mallory
+  track_id: 41
 - artist: The Sunshine Garcia Band
   audio_filepath:
     bass: Sources/Dev/092 - The Sunshine Garcia Band - For I Am The Moon/bass.wav
@@ -832,6 +914,7 @@ songs:
   style: Reggae/Gospel
   test_set: 0
   title: For I Am The Moon
+  track_id: 92
 - artist: The Wrong'Uns
   audio_filepath:
     bass: Sources/Test/042 - The Wrong'Uns - Rothko/bass.wav
@@ -842,6 +925,7 @@ songs:
   style: Acoustic Indie Pop
   test_set: 1
   title: Rothko
+  track_id: 42
 - artist: Tim Taler
   audio_filepath:
     bass: Sources/Dev/093 - Tim Taler - Stalker/bass.wav
@@ -852,6 +936,7 @@ songs:
   style: Ukrainian Art-Punk
   test_set: 0
   title: Stalker
+  track_id: 93
 - artist: Timboz
   audio_filepath:
     bass: Sources/Test/043 - Timboz - Pony/bass.wav
@@ -862,6 +947,7 @@ songs:
   style: Screamo Metal
   test_set: 1
   title: Pony
+  track_id: 43
 - artist: Titanium
   audio_filepath:
     bass: Sources/Dev/094 - Titanium - Haunted Age/bass.wav
@@ -872,6 +958,7 @@ songs:
   style: Black Metal
   test_set: 0
   title: Haunted Age
+  track_id: 94
 - artist: Tom McKenzie
   audio_filepath:
     bass: Sources/Test/044 - Tom McKenzie - Directions/bass.wav
@@ -882,6 +969,7 @@ songs:
   style: Acoustic Singer-Songwriter
   test_set: 1
   title: Directions
+  track_id: 44
 - artist: Traffic Experiment
   audio_filepath:
     bass: Sources/Dev/095 - Traffic Experiment - Once More (With Feeling)/bass.wav
@@ -892,6 +980,7 @@ songs:
   style: Melodic Alt Rock
   test_set: 0
   title: Once More (With Feeling)
+  track_id: 95
 - artist: Traffic Experiment
   audio_filepath:
     bass: Sources/Test/045 - Traffic Experiment - Sirens/bass.wav
@@ -902,6 +991,7 @@ songs:
   style: Melodic Alt Rock
   test_set: 1
   title: Sirens
+  track_id: 45
 - artist: Triviul
   audio_filepath:
     bass: Sources/Dev/096 - Triviul - Angelsaint/bass.wav
@@ -912,6 +1002,7 @@ songs:
   style: Leftfield Pop/Electronica
   test_set: 0
   title: Angelsaint
+  track_id: 96
 - artist: Triviul
   audio_filepath:
     bass: Sources/Test/046 - Triviul - Dorothy/bass.wav
@@ -922,6 +1013,7 @@ songs:
   style: Leftfield Pop/Electronica
   test_set: 1
   title: Dorothy
+  track_id: 46
 - artist: Triviul feat. The Fiend
   audio_filepath:
     bass: Sources/Dev/097 - Triviul feat. The Fiend - Widow/bass.wav
@@ -932,6 +1024,7 @@ songs:
   style: Urban R&B/Pop
   test_set: 0
   title: Widow
+  track_id: 97
 - artist: Voelund
   audio_filepath:
     bass: Sources/Test/047 - Voelund - Comfort Lives In Belief/bass.wav
@@ -942,6 +1035,7 @@ songs:
   style: Laid-back Blues-Rock
   test_set: 1
   title: Comfort Lives In Belief
+  track_id: 47
 - artist: Wall Of Death
   audio_filepath:
     bass: Sources/Dev/098 - Wall Of Death - Femme/bass.wav
@@ -952,6 +1046,7 @@ songs:
   style: Black Metal
   test_set: 0
   title: Femme
+  track_id: 98
 - artist: We Fell From The Sky
   audio_filepath:
     bass: Sources/Test/048 - We Fell From The Sky - Not You/bass.wav
@@ -962,6 +1057,7 @@ songs:
   style: High-Energy Heavy Rock
   test_set: 1
   title: Not You
+  track_id: 48
 - artist: Young Griffo
   audio_filepath:
     bass: Sources/Dev/099 - Young Griffo - Blood To Bone/bass.wav
@@ -972,6 +1068,7 @@ songs:
   style: Anthemic Heavy Rock
   test_set: 0
   title: Blood To Bone
+  track_id: 99
 - artist: Young Griffo
   audio_filepath:
     bass: Sources/Test/049 - Young Griffo - Facade/bass.wav
@@ -982,6 +1079,7 @@ songs:
   style: Anthemic Heavy Rock
   test_set: 1
   title: Facade
+  track_id: 49
 - artist: Young Griffo
   audio_filepath:
     bass: Sources/Dev/100 - Young Griffo - Pennies/bass.wav
@@ -992,6 +1090,7 @@ songs:
   style: Anthemic Heavy Rock
   test_set: 0
   title: Pennies
+  track_id: 100
 - artist: Zeno
   audio_filepath:
     bass: Sources/Test/050 - Zeno - Signs/bass.wav
@@ -1002,3 +1101,4 @@ songs:
   style: Epic Indie Rock
   test_set: 1
   title: Signs
+  track_id: 50

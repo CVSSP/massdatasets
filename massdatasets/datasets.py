@@ -1,4 +1,5 @@
 import os
+import re
 import pandas as pd
 import yaml
 
@@ -129,6 +130,11 @@ class DSD100(Dataset):
             style = row[1]['Style']
             idx = [i for i, _ in enumerate(mix_paths) if artist_title in _][0]
 
+            # Add `track_id` from filename
+            m = re.search('(Sources|Mixtures)/(Dev|Test)/(\d{3})',
+                          mix_paths[idx])
+            track_id = int(m.group(3))
+
             audio = {}
             audio['mixture'] = mix_paths[idx] + '/mixture.wav'
 
@@ -139,7 +145,8 @@ class DSD100(Dataset):
                           title,
                           style,
                           audio,
-                          test_set=test_set[idx])
+                          test_set=test_set[idx],
+                          track_id=track_id)
 
 
 class MSD100(DSD100):
