@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import yaml
+from . import utilities
 
 try:
     Loader = yaml.CLoader
@@ -101,23 +102,23 @@ class Dataset(yaml.YAMLObject):
 
 
 '''
-MSD100
+Loaders
 '''
 
 
-def msd100(base_path):
-    dataset = Dataset.read('MSD100.yaml')
+def msd100(base_path=None):
+    dataset = Dataset.read(utilities.get_data_file('MSD100.yaml'))
     dataset.base_path = base_path
     return dataset
 
 
-def dsd100(base_path):
-    dataset = Dataset.read('DSD100.yaml')
+def dsd100(base_path=None):
+    dataset = Dataset.read(utilities.get_data_file('DSD100.yaml'))
     dataset.base_path = base_path
     return dataset
 
 
-def mus2016(base_path):
-    dataset = Dataset.read('MUS2016.yaml')
+def mus2016(base_path=None):
+    dataset = Dataset.read(utilities.get_data_file('MUS2016.yaml'))
     dataset.base_path = base_path
     return dataset

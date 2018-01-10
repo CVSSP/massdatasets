@@ -11,6 +11,7 @@ setup(
     author_email='dw0031@surrey.ac.uk',
     url='',
     packages=['massdatasets'],
+    package_data={'massdatasets': ['data/*']},
     long_description=long_description,
     keywords='audio music bss',
     license='MIT',
