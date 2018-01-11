@@ -1,9 +1,8 @@
+import os
 import pandas as pd
 
 
 def get_data_file(path):
-
-    print(os.path.abspath(os.path.dirname(__file__)))
 
     return os.path.join(
         os.path.abspath(os.path.dirname(__file__)),

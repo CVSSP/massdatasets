@@ -1,5 +1,5 @@
 !!python/object:massdatasets.datasets.Dataset
-base_path: /vol/vssp/maruss/data2/DSD100
+base_path: ''
 dataset: DSD100
 songs:
 - artist: Actions
