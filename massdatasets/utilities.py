@@ -1,4 +1,13 @@
+import os
 import pandas as pd
+
+
+def get_data_file(path):
+
+    return os.path.join(
+        os.path.abspath(os.path.dirname(__file__)),
+        'data',
+        path)
 
 
 def join_dsd100_and_mus2016_dataframes(df_dsd, df_mus):

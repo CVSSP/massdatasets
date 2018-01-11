@@ -1,5 +1,5 @@
-!!python/object:massdatasets.datasets.MUS2016
-base_path: /vol/vssp/maruss/data2/MUS2017
+!!python/object:massdatasets.datasets.Dataset
+base_path: null
 dataset: MUS2016
 songs:
 - artist: ANiMAL

@@ -1,2 +1,5 @@
 from . import utilities
-from .datasets import (Dataset, DSD100, MSD100, MUS2016)
+from .datasets import (Dataset,
+                       msd100,
+                       dsd100,
+                       mus2016)

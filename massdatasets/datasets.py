@@ -1,7 +1,8 @@
-import os
 import re
+import os
 import pandas as pd
 import yaml
+from . import utilities
 
 try:
     Loader = yaml.CLoader
@@ -15,16 +16,23 @@ class Dataset(yaml.YAMLObject):
     datasets.
     '''
 
-    def __init__(self, base_path):
+    def __init__(self, name=None, base_path=None):
 
-        self.dataset = self.__class__.__name__
-        self.base_path = base_path
+        self.dataset = name
+
+        if base_path is None:
+            self.base_path = ''
+        else:
+            self.base_path = os.path.abspath(base_path)
+
         self.songs = []
 
-    @classmethod
-    def read(cls, filename=None):
+    @staticmethod
+    def read(filename=None):
+
         with open(filename, 'r') as f:
             instance = yaml.load(f, Loader=Loader)
+
         return instance
 
     def write(self, filename=None):
@@ -96,16 +104,81 @@ class Dataset(yaml.YAMLObject):
             return frame
 
 
-class DSD100(Dataset):
+def msd100(base_path=None, create=False):
 
-    def __init__(self,
-                 base_path='/vol/vssp/datasets/audio/DSD100',
-                 xlsx_name='dsd100.xlsx'):
-        super(DSD100, self).__init__(base_path)
+    if not create:
+
+        dataset = Dataset.read(utilities.get_data_file('MSD100.yaml'))
+        dataset.base_path = base_path
+        return dataset
+
+    else:
+
+        print('Creating MSD100 dataset')
+
+        dataset = Dataset('MSD100', base_path)
+
+        xlsx_name = 'msd100.xlsx'
+        excel = pd.read_excel(os.path.join(base_path, xlsx_name), 'Sheet1')
+
+        # Fix typo in xlsx file
+        excel.ix[excel.Name == 'Patrick Talbot - Set Free Me', 'Name'] = (
+            'Patrick Talbot - Set Me Free')
+
+        # relative paths to each song
+        mix_paths = ['Mixtures/Dev/' + _
+                     for _ in sorted(os.listdir(
+                            os.path.join(base_path, 'Mixtures/Dev')))]
+
+        mix_paths += ['Mixtures/Test/' + _
+                      for _ in sorted(os.listdir(
+                            os.path.join(base_path, 'Mixtures/Test')))]
+
+        source_paths = [_.replace('Mixtures', 'Sources')
+                        for _ in mix_paths]
+        test_set = [0] * 50 + [1] * 50
+
+        for row in excel.iterrows():
+
+            artist_title = row[1]['Name']
+            artist, title = artist_title.split(' - ')
+            style = row[1]['Style']
+            idx = [i for i, _ in enumerate(
+                mix_paths) if artist_title in _][0]
+
+            audio = {}
+            audio['mixture'] = mix_paths[idx] + '/mixture.wav'
+
+            for key in ['bass', 'drums', 'vocals', 'other']:
+                audio[key] = '{0}/{1}.wav'.format(source_paths[idx], key)
+
+            dataset.add_song(artist,
+                             title,
+                             style,
+                             audio,
+                             test_set=test_set[idx])
+        return dataset
+
+
+def dsd100(base_path=None, create=False):
+
+    if not create:
+
+        dataset = Dataset.read(utilities.get_data_file('DSD100.yaml'))
+        dataset.base_path = base_path
+        return dataset
+
+    else:
+
+        print('Creating DSD100 dataset')
+
+        dataset = Dataset('DSD100')
 
         base_path = os.path.abspath(base_path)
 
-        excel = pd.read_excel(os.path.join(base_path, xlsx_name), 'Sheet1')
+        xlsx_name = 'dsd100.xlsx'
+        excel = pd.read_excel(os.path.join(base_path, xlsx_name),
+                              'Sheet1')
 
         # Fix typo in xlsx file
         excel.ix[excel.Name == 'Patrick Talbot - Set Free Me', 'Name'] = (
@@ -118,7 +191,7 @@ class DSD100(Dataset):
 
         mix_paths += ['Mixtures/Test/' + _
                       for _ in sorted(os.listdir(
-                            os.path.join(base_path, 'Mixtures/Test')))]
+                        os.path.join(base_path, 'Mixtures/Test')))]
 
         source_paths = [_.replace('Mixtures', 'Sources') for _ in mix_paths]
         test_set = [0] * 50 + [1] * 50
@@ -133,6 +206,7 @@ class DSD100(Dataset):
             # Add `track_id` from filename
             m = re.search('(Sources|Mixtures)/(Dev|Test)/(\d{3})',
                           mix_paths[idx])
+
             track_id = int(m.group(3))
 
             audio = {}
@@ -141,37 +215,42 @@ class DSD100(Dataset):
             for key in ['bass', 'drums', 'vocals', 'other']:
                 audio[key] = '{0}/{1}.wav'.format(source_paths[idx], key)
 
-            self.add_song(artist,
-                          title,
-                          style,
-                          audio,
-                          test_set=test_set[idx],
-                          track_id=track_id)
+            dataset.add_song(artist,
+                             title,
+                             style,
+                             audio,
+                             test_set=test_set[idx],
+                             track_id=track_id)
+
+        return dataset
 
 
-class MSD100(DSD100):
-
-    def __init__(self,
-                 base_path='/vol/vssp/datasets/audio/MSD100',
-                 xlsx_name='msd100.xlsx'):
-        super(MSD100, self).__init__(base_path, xlsx_name)
-
-
-class MUS2016(Dataset):
+def mus2016(base_path=None, create=False):
     '''
+    MUS2016
+
     The naming conventions are strange I know.
     Basically MUS2016 is correct, but the data files we have received and are
     available for download use 2017.
     '''
 
-    def __init__(self,
-                 base_path='/vol/vssp/maruss/data2/MUS2017',
-                 results_filename='sisec_mus_2017_full.csv'):
-        super(MUS2016, self).__init__(base_path)
+    if not create:
+
+        dataset = Dataset.read(utilities.get_data_file('MUS2016.yaml'))
+        dataset.base_path = base_path
+        return dataset
+
+    else:
+
+        print('Creating MUS2016 dataset')
+
+        dataset = Dataset('MUS2016')
 
         base_path = os.path.abspath(base_path)
+        results_filename = 'sisec_mus_2017_full.csv'
 
-        results = pd.read_csv(os.path.join(base_path, results_filename))
+        results = pd.read_csv(os.path.join(base_path,
+                                           results_filename))
 
         # Tracks 36, 37, 43, and 44 should be excluded (due to corrupt data)
         results = results[~results.track_id.isin([36, 37, 43, 44])]
@@ -223,11 +302,13 @@ class MUS2016(Dataset):
                                    (data.target == target)]
                     feature[metric][target] = float(sub['score'])
 
-            self.add_song(artist,
-                          title,
-                          style,
-                          audio,
-                          test_set=test_set,
-                          method=method,
-                          track_id=int(group[1]),
-                          feature=feature)
+            dataset.add_song(artist,
+                             title,
+                             style,
+                             audio,
+                             test_set=test_set,
+                             method=method,
+                             track_id=int(group[1]),
+                             feature=feature)
+
+        return dataset
