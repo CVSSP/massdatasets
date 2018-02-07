@@ -67,7 +67,7 @@ class Dataset(yaml.YAMLObject):
         songs = self.songs.copy()
 
         for song in songs:
-            if 'feature' in song and include_features:
+            if 'feature' in song:
                 features.append(pd.DataFrame.from_dict(song.pop('feature')))
             frames.append(pd.DataFrame.from_dict(song))
 
