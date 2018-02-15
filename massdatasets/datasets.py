@@ -47,13 +47,15 @@ class Dataset(yaml.YAMLObject):
         return yaml.dump(self, default_flow_style=False)
 
     def add_song(self, artist, title, style, audio_filepath, **kwargs):
-        self.songs.append(
-            {'artist': artist,
-             'title': title,
-             'style': style,
-             'audio_filepath': audio_filepath,
-             **kwargs}
-        )
+
+        temp = {'artist': artist,
+                'title': title,
+                'style': style,
+                'audio_filepath': audio_filepath}
+
+        temp.update(kwargs)
+
+        self.songs.append(temp)
 
     def to_pandas_df(self, include_features=True):
         '''
@@ -64,7 +66,7 @@ class Dataset(yaml.YAMLObject):
         long_format = True
         features = []
         frames = []
-        songs = self.songs.copy()
+        songs = list(self.songs)
 
         for song in songs:
             if 'feature' in song:
